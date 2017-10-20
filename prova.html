@@ -1,0 +1,75 @@
+
+
+<html>
+<body>
+
+  <style>
+       #map {
+	height: 400px;
+        width: 30%;
+	}
+	#divElement{
+    position: center;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}​
+        </style>
+</head>
+
+<body>
+
+<script type="text/javascript" src="../modelli/it.js"></script>
+
+<div id="main">
+	
+	<p>Il Laboratorio di Fonetica Sperimentale "Arturo Genre" si trova presso il CLA (Centro Linguistico d'Ateneo) a Palazzo Nuovo
+	<p><b>Indirizzo:</b> via sant'Ottavio 20, 10124, Torino (piano seminterrato)
+	<p><b>E-mail:</b> lfsag.unito@gmail.com
+	<a href="https://www.facebook.com/Laboratorio-di-Fonetica-Sperimentale-Arturo-Genre-504322583065501/"><img src="/laboratorio/facebook.png" width="35" height="30"/></a>
+	<a href="https://www.youtube.com/channel/UCV3Hbhexkpju8hmaLQmsIuQ"><img src="/laboratorio/youtube.png" width="70" height="50"/></a>
+        <p>
+	<div id="map"></div>
+	<style>
+       #map {
+	position: relative;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;"
+}​
+        </style>
+	
+<div id="foot">
+<hr width="170px" size="2"/>
+HTML, CSS and design by Paolo Mairano
+</div>
+
+
+</div>
+
+
+  <body>
+       
+    <script>
+      function initMap() {
+        var laboratorio = {lat: 45.0679016, lng: 7.6948606};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: laboratorio
+        });
+        var marker = new google.maps.Marker({
+          position: laboratorio,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYrQTnO-okxUjmD4JjVeF7iNgKZqLTUa8">
+    </script>
+
+
+</body>
+</html>
