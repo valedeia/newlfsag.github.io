@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="js/jquery.fancybox.pack.js"></script>
+
+<script src="js/taffy-min.js"></script>
+<script src="trm_db.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div w3-include-html="menu.html"></div> 
+<script src="js/w3.js"></script> 
+<script>w3.includeHTML();</script>
+
+
+<div class="card">
+<div class="card-block">
+
+<h4 class="card-title">Archivio di parlato - La tramontana e il sole</h4>
+
+
+<p class="card-text">I dati offerti in questa pagina sono raggruppati in due sezioni principali (<a href="#LdM">lingue del mondo</a> e <a href="#DdI">dialetti d'Italia</a>) e sono organizzati secondo la famiglia linguistica e il luogo di provenienza del locutore registrato.
+</p>
+
+<p class="card-text">Gran parte di questi dati sono stati utilizzati per progetti di ricerca o per tesi da parte di studenti e dottorandi, precisati nei riferimenti bibliografici; per ciascun dato si è inoltre valutata la qualità dell'audio (⋆/⋆⋆/⋆⋆⋆ corrispondenti rispettivamente a bassa/media/alta qualità).
+</p>
+
+<p class="card-text">Per ascoltare una versione, cliccare sul tasto bianco in corrispondenza della colonna "Audio".
+</p>
+
+<p class="card-text">Buon ascolto!
+</p>
+
+<a href="#LdM">lingue del mondo</a> e <a href="#DdI">dialetti d'Italia</a>
+
+<p class="card-text">
+    
+<a name="LdM"><h4>Lingue del mondo</h4></a>
+
+Filtra:
+<input type="text" name="search" id="search" value="" onchange="filter()">
+
+<div id="table">
+</div>
+
+</p>
+
+</div><!-- card block -->
+
+</div><!--card-->
+
+<p style align="center"><small>Copyright © 2017 Valentina De Iacovo</small>
+
+</div><!-- container-->
+<script>
+
+$(".ui-btn").button().click(function(){
+            var element = this;
+            $.fancybox({
+                'padding':  20,
+                'width':    "auto",
+                'height':   "auto",
+                'type':     'html',
+                content:   $(element).parent().find(".popupContent")
+        });
+        });
+</script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+<script>
+
+function filter()
+    {
+    var search = document.getElementById("search").value;
+        
+    var table = document.getElementById("table")
+    var s = "<table class=\"table\"><thead><tr><th>Area</th><th>Divisione</th><th>Paese</th><th>Punto d'inchiesta</th><th>Audio</th><th>Qualità</th><th>Rif. bibliografici</th></tr></thead><tbody>";
+
+    if (search != "")
+        {
+        trm_db([{family:{likenocase:search}}, {area:{likenocase:search}}, {country:{likenocase:search}}, {city:{likenocase:search}}]).each( function (r) { s += format(r)});   //{column:{like:value}}
+        }
+    else
+        {
+        trm_db().each( function (r) { s += format(r)});
+        }
+
+//'Afro-Asiatica'
+
+    s += "</tbody></table>";
+
+    table.innerHTML = s;
+    }
+
+function format(r)
+    {
+    var out = "";
+    out += "<tr>";
+    out += "<td>"+r.family+"</td>";
+    out += "<td>"+r.area+"</td>";
+    out += "<td>"+r.country+"</td>";
+    out += "<td>"+r.city+"</td>";
+    out += "<td>";
+    out += "<a class=\"ui-btn ui-btn-inline ui-corner-all\"></a><div class=\"popupContent\" style=\"display:none;\">";
+    out += "<p align=\"justify\">"+r.title+"</p>";
+    out += "<p align=\"justify\">"+r.text+"</p>";
+    out += "<p align=\"justify\">"+r.question+"</p>";
+    out += "<p><audio controls><source src=\"tramontane/"+r.file+"\" type=\"audio/mp3\"></audio></p>";
+    out+="</div></td>";
+    out+="<td>"+r.audio_quality+"</td>";
+    out += "<td>";
+    out +="<a class=\"ui-btn ui-btn-inline ui-corner-all\"></a><div class=\"popupContent\" style=\"display:none;\">";
+    out += "<p align=\"center\">"+r.reference+"</p></div>";
+    out += "</td></tr>";
+
+    return out;
+    }
+
+filter();
+
+</script>
