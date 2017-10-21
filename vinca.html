@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="La tramontana e il sole">
+    <meta name="author" content="Valentina De Iacovo">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script src="js/VINCA_audio.js" type="text/javascript"></script>
+
+<style type="text/css">
+#map { height: 800px; }
+
+* {margin: 0; padding: 0;}
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top}
+#left {width: 50%; background: blue;}
+#middle {width: 0%; background: green;}
+#right {width: 50%; background: yellow;}
+</style>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+
+<div w3-include-html="menu.html"></div>
+   <script src="js/w3.js"></script>
+   <script>w3.includeHTML();</script>
+
+
+<div id="container">
+    <div class="card">
+    <div class="card-block">
+    <h4 class="card-title">Archivio di parlato di italiano regionale del progetto VINCA</h4>
+    <p class="card-text">
+I dati offerti in questa pagina sono il risultato di un lavoro congiunto condotto nell'ambito del progetto di ricerca <a href="http://www.valico.org/index.html">VINCA</a> dell'Università degli Studi di Torino.
+<p>Essi sono offerti in formato mp3 a 64 kbps e concessi sotto Licenza Creative Commons NC; è possibile scaricarli e disporne liberamente per scopi di ricerca e/o per impieghi di carattere culturale e divulgativo con l'obbligo di menzionarne sempre la fonte:
+<em>A. Romano, V. De Iacovo (2017). "Le voci di VINCA: riferimenti generali nelle produzioni di un campione di parlanti nativi."In E. Corino – C. Onesti (a cura di), Italiano d’apprendenti. Studi a partire dai corpora VALICO E VINCA, Perugia: Guerra Edizioni.</em> Qualsiasi abuso è perseguibile per legge.
+	<br>
+<p>Per ascoltare la descrizione delle due vignette in una delle varietà regionali proposte, cliccare su una città a scelta.
+Per ascoltare una versione della storiella ingrandire la mappa e cliccare su un punto a scelta.
+</p>
+    </div><!-- card block -->
+
+
+        <div class="row">
+            <div class="col-md-5">
+   				<div id="map"></div>
+    		</div>
+		
+            <div class="col-md-7">
+
+        		<img src="immagini/amore.png" width="350" height="350">
+        		<img src="immagini/stazione.png" width="500" height="350">
+    		</div>
+    	</div>
+	
+
+</div>
+</div><!--card-->
+
+<p style align="center"><small>Copyright © 2017 Valentina De Iacovo</small></p>
+
+
+
+<script type="text/javascript">
+  var map = L.map('map').setView([43.02423,12.28271], 5);
+
+  var audioIcon = L.icon({
+    iconUrl: 'audio_icon.png',
+    iconSize: [15, 15],
+    shadowSize: [0, 0],
+    iconAnchor: [4, 4],
+    shadowAnchor: [0, 0],
+    popupAnchor: [0, -37]
+  });
+
+  function onEachAudio(feature, layer) {
+    layer.bindPopup(feature.properties.name + "<br>" + feature.properties.html);
+  };
+
+L.geoJson(sounds, {
+onEachFeature: onEachAudio,
+ pointToLayer: function(feature,latlng){
+	  return L.marker(latlng,{icon: audioIcon});}}).addTo(map);
+
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    {
+      attribution: 'OpenStreetMap', maxZoom: 18
+  }).addTo(map);
+
+</script>
+    
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>
