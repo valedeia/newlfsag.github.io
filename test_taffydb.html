@@ -58,14 +58,14 @@
 <p class="card-text">Buon ascolto!
 </p>
 
-<a href="#LdM">lingue del mondo</a> e <a href="#DdI">dialetti d'Italia</a>
+<!--<a href="#LdM">lingue del mondo</a> e <a href="#DdI">dialetti d'Italia</a>-->
 
 <p class="card-text">
     
-<a name="LdM"><h4>Lingue del mondo</h4></a>
+<!--<a name="LdM"><h4>Lingue del mondo</h4></a>-->
 
 Filtra:
-<input type="text" name="search" id="search" value="" onchange="filter()">
+<input type="text" name="search" id="search" value="" onkeyup="filter()">
 
 <div id="table">
 </div>
@@ -110,7 +110,7 @@ function filter()
     var table = document.getElementById("table")
     var s = "<table class=\"table\"><thead><tr><th>Area</th><th>Divisione</th><th>Paese</th><th>Punto d'inchiesta</th><th>Audio</th><th>Qualità</th><th>Rif. bibliografici</th></tr></thead><tbody>";
 
-    if (search != "")
+    if (search != "" && search.length > 2)
         {
         trm_db([{family:{likenocase:search}}, {area:{likenocase:search}}, {country:{likenocase:search}}, {city:{likenocase:search}}]).each( function (r) { s += format(r)});   //{column:{like:value}}
         }
