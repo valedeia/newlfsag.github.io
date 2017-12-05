@@ -14,41 +14,45 @@
 
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
-  </head>
 
-  <body>
+<style>
+.tales {
+  width: 30%;
+}
+.carousel-inner{
+  position:justify;
+  width:30%;
+  height:15%;
+}
+</style>
 
-    <div class="container">
+</head>
+
+<body>
+
+<div class="container">
+
+<div w3-include-html="menu.html"></div> 
+<script src="js/w3.js"></script> 
+<script>w3.includeHTML();</script>
 
 
-<div w3-include-html="menu.html"></div>
-   <script src="https://www.w3schools.com/lib/w3.js"></script>
-   <script>w3.includeHTML();</script>
-    
-<!--
-      <div class="jumbotron">
-        <div class="col-sm-8 mx-auto">
-          <h1>Navbar examples</h1>
-          <p>This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a <code>.container</code>. For positioning of navbars, checkout the <a href="../navbar-top/">top</a> and <a href="../navbar-top-fixed/">fixed top</a> examples.</p>
-          <p>At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.</p>
-          <p>
-            <a class="btn btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
-          </p>
-        </div>
-      </div>
--->
+<div class="card">
+<div class="card-block">
 
-  <p class="text-center"><h5>Collaboratori</h5></p>
+<h4 class="card-title">Equipe del Laboratorio</h4>
+
+<p class="card-text">
 <p>
   <div class="row">
     <div class="col-sm-2">
 	<div class="image-container">
-		<img src="foto/romano.jpg" class="img-thumbnail" alt="Antonio Romano" width="304" height="236">
+		<img src="foto/romano.png" class="img-thumbnail" alt="Antonio Romano" width="304" height="236">
         </div>
     </div>
     <div class="col-sm-8">
 	<p class="text-left">Antonio Romano</p>
-	<p class="text-justify"></p>
+	<p class="text-justify">Antonio Romano è Professore di II fascia presso il Dip. di Lingue e Lett. Str. e Cult. Mod. dell'Università degli Studi di Torino e Responsabile delle attività scientifiche del Laboratorio di Fonetica Sperimentale "Arturo Genre" di Torino (e Direttore del Master di I livello in Traduzione per il cinema, la TV e l'editoria multimediale). <a href="romano.html">Maggiori informazioni</a></p>
     </div>
   </div>
 <p></p> 
@@ -150,14 +154,24 @@
 <p></p>
 </div>
 </div>
-<!-- container-->
 
+</p>
+
+
+</div><!-- card block -->
+
+</div><!--card-->
+
+
+
+
+
+</div><!-- container-->
 
     
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>
-

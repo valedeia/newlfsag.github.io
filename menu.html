@@ -1,15 +1,27 @@
- 
+<head>
+	<style>
+.Menuhover:hover .dropdown-menu{
+display:block;
+margin-top:0;
+}
+</style>
+</head>
+	
  <nav class="navbar navbar-light bg-faded rounded navbar-toggleable-md">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="index.html"><img src="immagini/logo_lfsag.png" alt="lfsag" name="dropdown01"  height="170" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+
 
         <div class="collapse navbar-collapse" id="containerNavbar">
           <ul class="navbar-nav mr-auto">
 
 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laboratorio</a>
+<a class="nav-link dropdown-toggle"  id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Home">
+		<img alt="Home" height="70" src="immagini/home.png" class="nav-link dropdown-toggle Menuhover" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  </a>
+              
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="info.html">Info e strumenti</a>
                 <a class="dropdown-item" href="genre.html">Arturo Genre</a>
@@ -20,14 +32,14 @@
             </li>
 
 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personale</a>
+			  <a class="nav-link dropdown-toggle"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Equipe"><img src="immagini/equipe.png" alt="Equipe" name="dropdown01"  height="70" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
               <div class="dropdown-menu" aria-labelledby="dropdown02">
                 <a class="dropdown-item" href="equipe.html">Equipe</a>
               </div>
             </li>
 
 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Materiali</a>
+              <a class="nav-link dropdown-toggle"  id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Materiali" height="70" src="immagini/materiali.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
               <div class="dropdown-menu" aria-labelledby="dropdown03">
                 <a class="dropdown-item" href="correlatore.html">Correlatore</a>
                 <a class="dropdown-item" href="#">AMPER-fox/dat</a>
@@ -42,7 +54,7 @@
             </li>
 
 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eventi</a>
+              <a class="nav-link dropdown-toggle"  id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Eventi" height="70" src="immagini/eventi.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="convegni.html">Convegni e Workshop</a>
                 <a class="dropdown-item" href="seminari.html">Seminari e Lezioni</a>
@@ -51,18 +63,18 @@
 
 
 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ricerca</a>
+              <a class="nav-link dropdown-toggle"  id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Ricerca" height="70" src="immagini/ricerca.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
               <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="#">Settori di ricerca</a>
+                <a class="dropdown-item" href="ricerca.html">Settori di ricerca</a>
                 <a class="dropdown-item" href="#">Collaborazioni</a>
                 <a class="dropdown-item" href="#">AMPER</a>
                 <a class="dropdown-item" href="ritmo.html">Ritmo</a>
-                <a class="dropdown-item" href="#">Pro(so)Praat</a>
-                <a class="dropdown-item" href="#">MRI</a>
+                <a class="dropdown-item" href="prosopraat/index.html">Pro(so)Praat</a>
+                <a class="dropdown-item" href="mri_index.html">MRI</a>
                 <a class="dropdown-item" href="tesi.html">Tesi</a>
                 <a class="dropdown-item" href="didattica_index.html">Didattica</a>
                 <a class="dropdown-item" href="#">PhoNEWS</a>
-                <a class="dropdown-item" href="#">Prodotti della ricerca</a>
+                <a class="dropdown-item" href="prodotti.html">Prodotti della ricerca</a>
               </div>
             </li>
           </ul>

@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="La tramontana e il sole">
+    <meta name="author" content="Valentina De Iacovo">
     <link rel="icon" href="../../favicon.ico">
 
     <title>LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
@@ -14,32 +15,38 @@
 
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
-<style>
-       #map {
-	height: 300px;
-        width: 80%;
-	}
-	#divElement{
-    position: center;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 100px;
-    height: 100px;
-}​
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script src="js/contatti.js" type="text/javascript"></script>
+
+<style type="text/css">
+#map { height: 400px; }
+
+* {margin: 0; padding: 0;}
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 10; vertical-align: top}
+#left {width: 50%; background: blue;}
+#middle {width: 0%; background: green;}
+#right {width: 50%; background: yellow;}
 </style>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
     <div class="container">
 
-   <div w3-include-html="menu.html"></div>
-   <script src="https://www.w3schools.com/lib/w3.js"></script>
-   <script>w3.includeHTML();</script>
 
+<div w3-include-html="menu.html"></div>
+   <script src="js/w3.js"></script>
+   <script>w3.includeHTML();</script>
 
 
 
@@ -51,7 +58,8 @@
     <p>Il LFSAG si trova presso il CLA (Centro Linguistico d'Ateneo) di Palazzo Nuovo.
 	<p>Indirizzo: via sant'Ottavio 20, 10124, Torino (piano seminterrato).
 	<p>E-mail: lfsag.unito@gmail.com
-	<p><a href="https://www.facebook.com/Laboratorio-di-Fonetica-Sperimentale-Arturo-Genre-504322583065501/"><img src="immagini/facebook.png" width="50" height="45"/></a><a href="https://www.youtube.com/channel/UCV3Hbhexkpju8hmaLQmsIuQ"><img src="immagini/youtube.png" width="100" height="75"/></a>
+	<p>Tel. 011.6709718
+	<p><a href="https://www.facebook.com/Laboratorio-di-Fonetica-Sperimentale-Arturo-Genre-504322583065501/"><img src="immagini/facebook.png" width="45" height="40"/></a><a href="https://www.youtube.com/channel/UCV3Hbhexkpju8hmaLQmsIuQ"><img src="immagini/youtube.png" width="90" height="60"/></a>
 
 <div id="map"></div>
 	<style>
@@ -63,32 +71,40 @@
 }​
         </style>
     
-    </p>
+   
     </div><!-- card block -->
 </div><!--card-->
 
 
 
 
-<!-- container-->
+<script type="text/javascript">
+  var map = L.map('map').setView([45.06790,7.69486], 17);
 
- <script>
-      function initMap() {
-        var laboratorio = {lat: 45.0679016, lng: 7.6948606};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: laboratorio
-        });
-        var marker = new google.maps.Marker({
-          position: laboratorio,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvme5_wf_e0Laoi6MneIxl_0--t2otabE&callback=initMap">
-    </script>
+  var audioIcon = L.icon({
+    iconUrl: 'audio_icon.png',
+    iconSize: [15, 15],
+    shadowSize: [0, 0],
+    iconAnchor: [4, 4],
+    shadowAnchor: [0, 0],
+    popupAnchor: [0, -37]
+  });
 
+  function onEachAudio(feature, layer) {
+    layer.bindPopup(feature.properties.name + "<br>" + feature.properties.html);
+  };
+
+L.geoJson(sounds, {
+onEachFeature: onEachAudio,
+ pointToLayer: function(feature,latlng){
+	  return L.marker(latlng,{icon: audioIcon});}}).addTo(map);
+
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    {
+      attribution: 'OpenStreetMap', maxZoom: 18
+  }).addTo(map);
+
+</script>
     
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -96,4 +112,3 @@
 
   </body>
 </html>
-
