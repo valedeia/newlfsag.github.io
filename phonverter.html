@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Arturo Genre">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Arturo Genre - LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
+
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+
+<body>
+<div class="container">
+
+
+<div w3-include-html="menu.html"></div>
+   <script src="js/w3.js"></script>
+   <script>w3.includeHTML();</script>
+
+
+
+  
+
+<div class="card">
+    <div class="card-body">
+		<div class="card-block">
+        <h4 class="card-title">Phonverter - Convertitore IPA-SAMPA</h4>
+        <p><b><i>Phonverter</i> è un convertitore di trascrizioni IPA e SAMPA online. &Egrave; sufficiente inserire una trascrizione in SAMPA all'interno della casella di testo superiore o una trascrizione in IPA (che potete fare con <a href="/phonpad.html">PhonPad</a>) nelle casella di testo inferiore. La trascrizione verrà automaticamente convertita da IPA a SAMPA o viceversa; sarà quindi possibile copiare il testo e incollarlo altrove (se lo incollate in un documento Word, dovrete probabilmente selezionare un font adeguato, come Doulos SIL, Charis SIL, DejaVu Sans, Lucida Sans Unicode o Gentium).</b></p>
+<p><b>Licenza:</b> Questo script è stato scritto da <a href="https://sites.google.com/site/paolomairano/" target="_blank">Paolo Mairano</a> ed è concesso in licenza GPL, quindi lo si può utilizzare e/o modificare liberamente e gratuitamente; è anche possibile inserirlo nel proprio sito, ma in tal caso si prega di citarne la fonte e inserire un link verso questa pagina. L'autore non garantisce una conversione perfetta.</p>
+
+<noscript><div><em>Attenzione: Javascript sembra essere disabilitato, è necessario abilitarlo per utilizzare l'editor.</em></div></noscript>
+
+<div style="text-align:center">
+<input type="button" value='Pulisci' onclick="t1.value = ''; t2.value = '';" />
+<br />
+<script type="text/javascript" src="converter.js"></script>
+<script>t2.value = 'inseˈriːɾe ˈkwi del ˈtɛsto peɾ koɱveɾˈtirlo'; t1.value = ipatosampa(t2.value)</script>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+ </div>   
+
+
+    </div><!-- container-->
+	
+<div class="container">
+<div w3-include-html="footer.html"></div> 
+<script src="js/w3.js"></script> 
+<script>w3.includeHTML();</script>
+<div class="container">
+    
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); </script> <script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-7248841-1"); pageTracker._trackPageview(); } catch(err) {}</script>
+  </body>
+</html>

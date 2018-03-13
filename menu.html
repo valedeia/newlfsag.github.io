@@ -4,6 +4,9 @@
 display:block;
 margin-top:0;
 }
+p.serif {
+	font-family:verdana;
+    }
 </style>
 </head>
 	
@@ -11,78 +14,93 @@ margin-top:0;
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="immagini/logo_lfsag.png" alt="lfsag" name="dropdown01"  height="170" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+        <a class="navbar-brand" href="http://www.google.com"><img src="immagini/logo_lfsag.png" alt="lfsag" name="dropdown01"  height="170" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
 
 
         <div class="collapse navbar-collapse" id="containerNavbar">
           <ul class="navbar-nav mr-auto">
 
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle"  id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Home">
-		<img alt="Home" height="70" src="immagini/home.png" class="nav-link dropdown-toggle Menuhover" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	  </a>
-              
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="info.html">Info e strumenti</a>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Home
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="info.html">Info e Strumenti</a>
                 <a class="dropdown-item" href="genre.html">Arturo Genre</a>
                 <a class="dropdown-item" href="comitato.html">Comitato Scientifico</a>
                 <a class="dropdown-item" href="partner_locali.html">Partner Locali</a>
                 <a class="dropdown-item" href="contatti.html">Contatti</a>
-              </div>
-            </li>
-
-<li class="nav-item dropdown">
-			  <a class="nav-link dropdown-toggle"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Equipe"><img src="immagini/equipe.png" alt="Equipe" name="dropdown01"  height="70" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-              <div class="dropdown-menu" aria-labelledby="dropdown02">
+  </div>
+</div>		  
+	
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Equipe
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="equipe.html">Equipe</a>
-              </div>
-            </li>
+  </div>
+</div>		  
 
-<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Materiali" height="70" src="immagini/materiali.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-              <div class="dropdown-menu" aria-labelledby="dropdown03">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Strumenti
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="correlatore.html">Correlatore</a>
-                <a class="dropdown-item" href="#">AMPER-fox/dat</a>
                 <a class="dropdown-item" href="#">Phone it!</a>
-                <a class="dropdown-item" href="#">Tabella IPA</a>
-                <a class="dropdown-item" href="#">PhonPad IPA editor</a>
-                <a class="dropdown-item" href="inventari.html">Inventari sonori</a>
-                <a class="dropdown-item" href="archivi.html">Archivi sonori</a>
-                <a class="dropdown-item" href="biblioteca.html">Biblioteca</a>
-                <a class="dropdown-item" href="#">Materiale didattico</a>
-              </div>
-            </li>
+                <a class="dropdown-item" href="ipa.html">Tabella IPA</a>
+                <a class="dropdown-item" href="phonpad.html">PhonPad IPA Editor</a>
+                <a class="dropdown-item" href="phonverter.html">Phonverter - Convertitore IPA-SAMPA</a>
+                <a class="dropdown-item" href="archivi.html">Archivi Sonori</a>
+  </div>
+</div>		  
 
-<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Eventi" height="70" src="immagini/eventi.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="convegni.html">Convegni e Workshop</a>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Eventi
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+               <a class="dropdown-item" href="convegni.html">Convegni e Workshop</a>
                 <a class="dropdown-item" href="seminari.html">Seminari e Lezioni</a>
-              </div>
-            </li>
+   </div>
+</div>		  
 
-
-<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"  id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="Ricerca" height="70" src="immagini/ricerca.png" class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-              <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="ricerca.html">Settori di ricerca</a>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Ricerca
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="ricerca.html">Settori di Ricerca</a>
                 <a class="dropdown-item" href="#">Collaborazioni</a>
-                <a class="dropdown-item" href="#">AMPER</a>
-                <a class="dropdown-item" href="ritmo.html">Ritmo</a>
-                <a class="dropdown-item" href="prosopraat/index.html">Pro(so)Praat</a>
-                <a class="dropdown-item" href="mri_index.html">MRI</a>
-                <a class="dropdown-item" href="tesi.html">Tesi</a>
-                <a class="dropdown-item" href="didattica_index.html">Didattica</a>
+				<a class="dropdown-item" href="mri_index.html">MRI</a>
+				<a class="dropdown-item" href="ritmo.html">Ritmo</a>
+                <a class="dropdown-item" href="http://www.lfsag.unito.it/ricerca/amper-ita/#/">AMPER-Ita</a>
+                <a class="dropdown-item" href="http://www.lfsag.unito.it/ricerca/prosopraat/index.html">Pro(so)Praat</a>
+                <a class="dropdown-item" href="http://www.lfsag.unito.it/ricerca/vip/index.html">VIP - Voices of Italian Poets</a>
                 <a class="dropdown-item" href="#">PhoNEWS</a>
-                <a class="dropdown-item" href="prodotti.html">Prodotti della ricerca</a>
-              </div>
-            </li>
-          </ul>
+                <a class="dropdown-item" href="http://www.lfsag.unito.it/ricerca/prodotti.html">Prodotti della Ricerca</a>
+  </div>
+</div>		  
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Didattica e materiali
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="materiali.html">Materiale didattico</a>
+				<a class="dropdown-item" href="inventari.html">Inventari sonori</a>
+				<a class="dropdown-item" href="http://www.lfsag.unito.it/didattica.html">Info didattica</a>
+				<a class="dropdown-item" href="tesi.html">Tesi</a>
+				<a class="dropdown-item" href="biblioteca.html">Biblioteca del LFSAG</a>
+                
+  </div>
+</div>
+
+
 <!--
           <form class="form-inline my-2 my-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
 -->
-        </div>
-      </nav>
