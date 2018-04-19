@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>X Convegno Nazionale AISV</title>
+<meta name="description" content="X Convegno Nazionale AISV, Torino, 22-24 gennaio 2014">
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="container">
+  <div class="content">
+ 
+ <p><strong>Invio Abstract</strong></p>
+ <p>L'abstract deve essere in formato PDF composto di circa 2000 parole (o 10000  caratteri, spazi inclusi). La data di scadenza per l'invio degli abstracts &egrave; fissata per il <b>14 ottobre 2013</b>. Non c'&egrave; un template per l'abstract. I contributi devono essere redatti in forma anonima evitando autocitazioni e riducendo al massimo gli elementi che possano permettere ai revisori d'individuare l'identit&agrave; degli autori. A questo fine si invita a NON inserire nell'abstract la bibliografia (che sar&agrave; poi inserita nell'articolo). Gli abstract contenenti elementi tali da rendere riconoscibili gli autori saranno anonimizzati da un componente del comitato organizzatore.
+</p>
+<p>Inviare l'abstract in allegato a un messaggio e-mail da spedire all'indirizzo <b>aisv2014@gmail.com</b> indicando nel corpo:
+</p>
+    <ul class="nav">
+	<li> Nome e cognome dell'autore referente, </li>
+	<li> la sua affiliazione, </li>
+	<li> il suo indirizzo e-mail (e un numero di telefono) e </li>
+	<li> l'eventuale opzione di presentazione (orale/poster) o di adesione allo 'spazio dottorandi'. </li>
+    </ul>
+
+ <p align="center"> *** </p>
+ <em>
+  <p><strong>Abstract Submission</strong></p>
+ </em>
+ <p><em>
+   Your abstract must be formatted in PDF format and composed of about 2000 words (or 10000 characters, included spaces). The deadline for the abstracts' submission is scheduled for <b>October 14, 2013</b>. There is no template for the abstract. Contributions should be in anonymous form avoiding citations and minimizing those elements that would allow reviewers to determine the identity of the authors. For this purpose we invite you NOT to put the bibliography in the abstract (which will be inserted in the final paper). Abstracts containing cues about their authors will be anonymized by a member of the organizing committee.
+   </em></p>
+ <p>&nbsp; </p>
+
+<p>Send the abstract in attachment to an e-mail addressed to <b>aisv2014@gmail.com</b> 
+Please state in the body of the message the following data:
+</p>
+    <ul class="nav">
+	<li> Name and Surname of the corresponding author, </li>
+	<li> his/her affiliation, </li>
+	<li> his/her address e-mail (and telephone number) and </li>
+	<li> the presentation options (oral/poster) or the option to join the PhD-student session. </li>
+    </ul>
+
+ 
+ 
+  </div>
+
+<br class="clearfloat"/>
+  <!-- end .container --></div>
+</body>
+</html>

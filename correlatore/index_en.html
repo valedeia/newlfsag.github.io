@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="/css/starter-template.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div w3-include-html="../menu_en.html"></div> 
+<script src="/js/w3.js"></script> 
+<script>w3.includeHTML();</script>
+
+
+<div class="card">
+    <div class="card-body">
+		<div class="card-block">
+<h4 class="card-title">Correlatore</h4>
+
+<p class="card-text"><b><i>Correlatore</i></b> is a program developed by <a href="https://sites.google.com/site/paolomairano/" target="_blank">Paolo Mairano</a> in Tcl/Tk which can be used for the rhythmic analysis of annotated files. It has been created in order to calculate automatically come rhythmic correlates (%V, &Delta;C, &Delta;V, Varcos, PVIs, CCIs - see the documentation) from <i>Praat</i>'s annotation files. So, if you wish to carry on research on the acoustic correlates of linguistic rhythm, you only need to annotate your wave files with Praat and, then, to open the TextGrids in <b><i>Correlatore</i></b>: you will obtain the values for the correlates quoted above and you will be able to build charts with the results.
+
+</p>
+<p class="text-justify"><b><i>Correlatore</i></b> is released under the terms of the GPL license, so you can download it and use it freely. You are advised to read the documentation (particularly the 'Warning' section, where you can find the annotation criteria you have to follow).
+</p>
+
+<h4>News</h4>
+<p class="text-justify">Since September 2015 <a href='http://phonetictools.altervista.org/correlatore/'>Correlatore's homepage has been moved here</a> to simplify the support and update process. Please visit the new homepage to download the latest version.
+</p>
+
+  <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapsedocumentazione" aria-expanded="false" aria-controls="multiCollapseExample1">Documentation</a>
+<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapsedownload" aria-expanded="false" aria-controls="multiCollapseExample1">Download</a>
+</p>
+<div class="row">
+    <div class="collapse multi-collapse" id="multiCollapsedocumentazione">
+    <div class="card-body">
+		<div class="card-block">
+      <p class="card-text">
+
+<h2>CORRELATORE 2.2: DOCUMENTATION</h2>
+
+<h2>LICENSE</h2>
+
+<p>This software is realeased under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL license</a> and can be used and/or modified freely. However, I have spent a considerable amount of time in writing it; so, <b>please, if you use it for your research and find it helpful, please quote it in your papers</b> (you may simply specify the author - <a href="../paolo_mairano/index_en.html">Paolo Mairano</a> - and the address of this website, or you may quote the following article:</p>
+<p>Mairano, P. &amp; Romano, A. (2010) Un confronto tra diverse metriche ritmiche usando Correlatore. In: Schmid, S., Schwarzenbach, M. &amp; Studer, D. (eds.) <i>La dimensione temporale del parlato</i>, Proc. of the V Natioanl AISV Congress (Associazione Italiana di Scienze della Voce) (University of Zurich, Collegiengebaude, 4th-6th February 2009), Torriana (RN): EDK, 79-100.</p>
+<p>According to the GPL license, I do not respond of any damage that may be caused by this software. Any constructive feedback is welcome.</p>
+
+<h2>CREDITS</h2>
+
+<p>This application has been created exclusively with opensource software and can be downloaded from the website of the Laboratory of Experimental Phonetics "A Genre" of the University of Turin.<br>
+It has been developed on <a href="http://www.xubuntu.org" target="_blank">Xubuntu</a> 8.04 with <a href="http://www.tcl.tk/" target="_blank">TCL/TK</a> 8.5 and <a href="http://tkimg.sourceforge.net/" target="_blank">tk-img</a>, while the executables have been made with <a href="http://www.equi4.com/tclkit/index.html" target="_blank">Tclkit</a> 8.5, provided by <a href="http://www.equi4.com/" target="_blank">Equi4</a>.<br>
+I have used the icons from the <a href="http://www.gnome-look.org/content/show.php/Crystal+Clear+for+GNOME?content=26331" target="_blank">CrystalClear for GNOME project</a>&nbsp;by Andrew Crouthamel; according to the GPL license, I shall state that the icons have been converted to the GIF format on the 25th May 2008 with <a href="http://www.gimp.org/" target="_blank">the Gimp</a>. As for the English and French flags, they have been taken from <a href="http://wikipedia.org/" target="_blank">Wikipedia</a> and converted to the GIF format on the 26th May 2008.<br>
+I would like to thank <a href="../antonio_romano/index.html">Antonio Romano</a> (University of Turin) for his support and for testing the application and <a href="http://www.e-allora.net/" target="_blank">Adriano Allora</a> (University of Turin) for introducing me to programming and to Linux.</p>
+
+<h2>WARNING</h2>
+
+<p>This software computes rhythm correlates (%V, &Delta;V, &Delta;C, VarcoV, VarcoC, rPVI, nPVI and CCI - see Reference) from <a href="http://www.fon.hum.uva.nl/praat/" target="_blank">Praat</a>'s TextGrid files. More than one tier may be present in every file, you will specify on which of them you wish to calculate the rhythm metrics. Tiers can be labelled with a SAMPA transcription or simply CV (C for consonants, V for vowels). However, <b>it is strictly necessary to follow some conventions in the annotation</b>:</p>
+<p><b>CV</b></p>
+<ul>
+	<li>You need to create one and only one label for each vocalic/consonantal interval and annotate it with as many 'c' or 'v' as the number of segments composing the interval. For instance, 'campus' should be annotated as |c|v|cc|v|c| and Italian 'palla' as |c|v|cc|v|. Pauses should be left empty or labelled as #. This type of transcription leaves the user free to decide how to treat segments whose phonological status is debated (such as syllabic consonants) and to be in full control of the subdivision of intervals; this way it is possible to follow the instructions set by Bertinetto &amp; Bertini (2008) (see Reference, below) for the calculation of CCIs: for example, hyatuses can be labelled as 2 distinct intervals: Italian 'suo' |c|v|v|.</li>
+	<li>Alternately, it is also possible to use a simpler segmentation that does not take into consideration the number of segments composing each interval, ex. 'campus' |c|v|c|v|, Italian 'palla' |c|v|c|v|, but keep in mind that this will result in faulty CCI values (their formula requires each interval to be divided by the number of phonological segments composing it, which in this case would be interpreted as 1, thus giving the same results as the rPVIs).</li>
+</ul>
+<p><b>SAMPA</b></p>
+<ul>
+	<li>Every label should correspond to one and only one phone (that is to say a vowel or a consonant, not a vocalic or consonantal interval).</li>
+	<li>Phonologically long phonemes (like long vowels in Finnish and geminate consonants in Italian) should be annotated with two distinct labels (even though the boundary between the two is of course ficticious); for instance, the Finnish word 'saami' shuold be annotated as: |s|a|a|m|i|, not as |s|a:|m|i| and nor as |s|aa|m|i|. Otherwise, the CCI result will be incorrect.</li>
+	<li>It is normally possible to use standard SAMPA diachritics, but if you use any non standard diachritic or annotation convention, this may interfere with the substitution variable (see below). For instance, if you use t_u (instead of t_w) to indicate a labialised voiceless alveolar plosive, this label will be interpreted as a vowel by Correlatore because of the 'u'.</li>
+	<li>Correlatore uses a substitution variable to transform SAMPA transcription into CV sequences that contains all the symbols that should be considered as vocalic: if a label contains one of these symbols, it will count as a vowel, otherwise as a consonant (except for '#', which stands for pauses). The variable's value is shown in the statusbar of the main window and it is possible to edit it by clicking on it.</li>
+	<li>Pauses should be labelled as '#' or left empty.</li>
+	<li>During the process of segmentation and calculation of the correlates of a tier labelled as SAMPA, Correlatore builds vocalic and consonantal intervals by summing the duration of adjacent consonants/vowels.</li>
+</ul>
+
+<h2>INSTALLATION</h2>
+
+<p><b>SYSTEM REQUIREMENTS:</b> 1024x768 or higher screen resolution.</p>
+<p><b>Windows executable:</b> no installation is required, just double click on correlatore.exe.</p>
+<p><b>Mac executable:</b> no installation is required, just execute correlatore.</p>
+<p><b>Linux executable:</b> no installation is required, just execute correlatore.</p>
+<p><b>Starkit (any OS):</b> drag the file correlatore.kit over the Tclkit for your OS.</p>
+<p><b>Sources (any OS):</b> the sources should work on any platform if TCL/TK 8.5 and tkimg are installed (the latter is only needed if you wish to save charts in any format other than Postscript). Browse to the folder containing the file correlatore.tcl and execute it or, from the command line, type <code>wish8.5 correlatore.tcl</code></p>
+
+<h2>INSTRUCTIONS</h2>
+
+<h3>----COMPUTING RHYTHM METRICS----</h3>
+<ol>
+<li>Double click on Correlatore executable file. The first time you run the application you will be prompted with a window asking you to specify your language (English or Italian), to accept the terms of the GPL license and whether you would rather see the instructions. After you have chosen your preferred language, you will find a window with a menu, some buttons and an empty box. In the statusbar you will see the current value of the SAMPA substitution variable.</li>
+<li>If some Praat's TextGrid files are in the same folder as Correlatore, they will be found automatically and shown in the box. Otherwise, click Open file or Open folder and browse to the folder containing the TextGrid(s). Once open, its/their name(s) will be shown in the box. You can close one or all of them by clicking Close file and Close all.</li>
+<li>Select one file and click on Segmentation and rhythm correlates. A new window will pop up showing the names of the tier(s) found in your TextGrid; you have to select the one you want to work with and to specify the type of annotation you carried out (the application tries to detect whether every tier has been labelled as SAMPA or CV but you should check that).</li>
+<li>Make your choices and press Go!. The three boxes on the right will be filled. In case of problems, a log window will pop up (for example, if Correlatore finds a label other than "c", "v" or "#" in a file which has been annotated as CV). In the first box you will see how the application has segmented the data and the durations of each vocalic and consonantal interval for %V, the deltas, the varcos and the PVIs (excluded segments are shown in gray); in the second box you will see how the application has segmented tha data for the CCI (<i>there will only be a difference if the TextGrid has been labeled as CV according to the conventions specified above</i>); you can save these results by pressing Save to file. In the third box you will see some data about the file (n° of vocalic/consonantal intervals, n° of pauses, mean duration of V/C segments) and the values of rhythm correlates. By pressing Add to report, a window will pop up letting you select the report in which you wish to save the results (it will then be possible to view the content of the report by clicking on Open report from the main window). Below you will see a graphic (customizable) representation of the vocalic and consonantal segments (segments in grey have been excluded from the computation).</li>
+<li>Now you can compute the metrics on other tiers by clicking on Refresh or go back to the main window by clicking on Close. It is always possible to see this help by clicking on Help.</li>
+<li><i>(New in 2.2)</i> If you want to calculate rhythm metrics for a large number of TextGrids with the same format (i.e. TextGrids that all contain the same number of tiers and the same annotation conventions), it is now possible to do this automatically. Once you have opened all TextGrids in Correlatore, you can click on Process all files in a batch. You will be asked to enter the index of the tier that contains the segmentation (1, 2, etc.) and the type of annotation. Then click on Go! If everything goes as it should, you will find your results in the report when the batch is completed.</li>
+</ol>
+
+<h3>----REPORTS AND CHARTS----</h3>
+
+<p><b>Reports</b> can be viewed, modified and exploited from the right frame of the main window: they contain the results of correlates computed on one or more files. A pop-down menu allows the user to select one report among the existing ones. Pressing Open report will allow the user to view and edit the items stored in the selected report. It is possible to rename one or more items, to delete them or to calculate the mean of their values. In this case, the new item will contain values for ErrBar (standard error or standard deviation, according to the user's choice), which will be used for error bars when drawing charts. So, for instance, it is possible to have a wav file annotated by 2 different people, to calculate the correlates on both resulting TextGrids, to save data in the report and to calculate the mean: this way, when charts will be created with these data, a circle will be shown to indicate the value of the mean, while error bars will reflect inter-operator variability.<br />
+It is of course possible to create new reports, to rename them, to export and import them. These operations can be carried out by clicking on the asterisk-button beside the pop-down menu of the main window. The import/export facility allows the user to easily exchange data among different computers and/or users, <b>however you are warned that even a small change may make them unusable by Correlatore</b>: when importing a report, Correlatore does not check its validity (it only checks that it is in TXT format), so this is the user's responsibility.</p>
+<p>You can also build <b>charts</b> from the data in the report. In the main window you should choose which metrics you want in the x and y axes, then you can press Draw chart. A window will open with a chart and many options for customization (you can specify preferences for the size of the chart, background and foreground colours, ticklines, legend, indicators' shapes and colours, axes format, legend, labels, title, fonts, ...). You can export the chart to several formats (JPEG, PNG, GIF, BMP, GIF, etc.) by clicking on Save as image or to R code by clicking on Export to R code.</p>
+
+<h3>----PREFERENCES AND CONFIGURATION----</h3>
+
+<p>Preferences and configuration options are stored in a configuration file in order to make them persistent. This means that they will be remembered when you close and restart correlatore.</p>
+<p>The SAMPA <b>substitution variable</b> is used in the transformation of SAMPA transcriptions into CV sequences. It contains all the symbols which are to be considered as vocalic: that is to say, when a TextGrid labelled with SAMPA is opened, every label containing one of the symbols in the substitution variable is replaced with V, in all other cases with C (except for # which indicates pauses). Its default value is aeiouyAEIOUY@MQV&amp;1236789={} (so syllabic consonants are included, while glides are considered as consonantal), but you can modify it by clicking on Edit variable or through the menu Edit, Edit substitution variable.</p>
+<p><b>Rhythm metrics preferences</b> control how the metrics are computed. There are two possibilities:<br>
+A) they can be calculated by applying the formulas (delta, varco, pvi or cci) to all the vocalic and consonantal intervals found in a tier.<br>
+B) they can be calculated by applying the formulas (delta, varco, pvi or cci) to the vocalic and consonantal intervals of every single interpausal segment and then calculating the mean of the values obtained.<br>
+Starting from Correlatore 2.0, all correlates are computed both ways (and both results are saved in the report); however, it is necessary to specify which type of results you wish to use when building charts: Correlatore uses method A by default, but it is possible to modify this behaviour by clicking on metrics in the toolbar, or through the menu Edit, Edit preferences for rhythm metrics.</p>
+<p>If you wish to see how rhythm metrics are computed, click on <b>Formulas</b> or on the menu Edit, View TCL implementation of rhythm metrics. A new window will pop up, showing the formulas of rhythm metrics and their TCL implementation. It is possible to insert numerical values or to import them from a TXT file in order to try the formulas.</p>
+<p>You can switch <b>language</b> (English or Italian) simply by clicking on the corresponding button.</p>
+<p>The <b>statusbar</b>, the <b>toolbar</b> and the <b>tooltips</b> can be hidden/shown from the View menu. On Unix you can also choose three different themes (clam, alt and native) for the interface.</p>
+<p><i>New in 2.2</i> It is possible to <b>exclude some intervals</b> from the computation of rhythm correlates (namely: sentence-initial ones, sentence-final ones and intervals that are too few in a sentence). By default, no initial or final itervals are excluded. But it is possible to change this by modifying these values in the lower part of the main window. Also note that if a sentence (defined as an inter-pausal unit) contains less than 2 vocalic intervals or 2 consonantal intervals these values will necessarily be discarded (at least 2 values are needed to compute rhythm correlate formulae). If you wish, you can customize this behaviour by increasing the minimum number of intervals required (use Min intervals per sentence): beware that if you are already excluding some initial and some final intervals, these already excluded intervals do not add up to the count. For example, if you have a sentence with 10 intervals (cc - v - c - v - cc - vv - ccc - v - cc - v) and you exclude 1 initial and 2 final ones you get (v - c - v - cc - vv - ccc - v); so, if you set 'Min intervals per sentence' to 5, you will exclude all remaining intervals (4 vocalic intervals and 3 consonantal intervals). Excluded intervals are shown in gray in the segmentation window.</p>
+
+<h2>REFERENCE</h2>
+
+<p>Bertinetto, P. M. &amp; Bertini, C. (2008). On modeling the rhythm of natural languages. <i>Proc. of the 4<sup>th</sup> International Conference on Speech Prosody</i>, Campinas 2008, 427-430.</p>
+<p>Boersma, P. &amp; Weenink, D. (2005) Praat: doing phonetics by computer. Retrieved from <a href="http://www.praat.org/" target="_blank">http://www.praat.org/</a>.</p>
+<p>Dellwo, V. (2006). Rhythm and speech rate: A variation coefficient for deltaC. <i>Language and Language Processing: Proceedings of the 38th Linguistic Colloquium</i>, Piliscsaba 2003, ed. by Pawel Karnowski Imre Szigeti, 231-241. Frankfurt: Peter Lang.</p>
+<p>Grabe, E. &amp; Low, E.L. (2002). Durational variability in speech and the rhythm class hypothesis. In: Gussenhoven, C., Warner, N. (eds), <i>Papers in Laboratory Phonology</i> 7, Berlin: Mouton de Gruyter, 515-546.</p>
+<p>Mairano, P. &amp; Romano, A. (2010) Un confronto tra diverse metriche ritmiche usando Correlatore. In: Schmid, S., Schwarzenbach, M. &amp; Studer, D. (eds.) <i>La dimensione temporale del parlato</i>, Proc. of the V Natioanl AISV Congress (Associazione Italiana di Scienze della Voce) (University of Zurich, Collegiengebaude, 4th-6th February 2009), Torriana (RN): EDK, 79-100.</p>
+<p>Ramus, F., Nespor, M. &amp; Mehler, J. (1999). Correlates of linguistic rhythm in the speech signal. <i>Cognition</i>, 73/3, 265-292.</p>
+<p>Welch, B. B., Jones &amp; K. Hobbs, J. (2003). Practical Programming in Tcl and Tk, 4<sup>th</sup> ed., Prentice Hall PTR.</p>
+<p>Wells, J.C. (1997). SAMPA computer readable phonetic alphabet. In  Gibbon, D., Moore, R. and Winski, R. (eds.), 1997. <i>Handbook of Standards and Resources for Spoken Language Systems</i>. Berlin and New York: Mouton de Gruyter. Part IV, section B.</p>
+
+
+
+      </div>
+    </div>
+</div>
+    <div class="collapse multi-collapse" id="multiCollapsedownload">
+        <div class="card-body">
+		<div class="card-block">
+	<p class="card-text">
+
+        <p>Correlatore has been hosted on the LFSAG website for more than 5 years. It has now been moved to a new website to simplify the support and update process.<br/><a href='http://phonetictools.altervista.org/correlatore/' target="_blank">Please visit Correlatore's new homepage to download the latest version!</a>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+</div><!-- card block -->
+
+</div><!--card-->
+
+
+</div><!-- container-->
+
+
+            </div>
+        </div>
+    </div>
+</div>
+ </div>   
+
+
+</div><!-- container-->
+<div class="container">
+<div w3-include-html="/footer_en.html"></div> 
+</div><!-- container-->
+
+
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

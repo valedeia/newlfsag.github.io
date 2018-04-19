@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>LFSAG - Laboratorio di Fonetica Sperimentale 'Arturo Genre'</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+	  
+<div class="container">
+
+<div w3-include-html="menu.html"></div> 
+<script src="js/w3.js"></script> 
+<script>w3.includeHTML();</script>
+
+
+<div class="card">
+<div class="card-block">
+
+<h4 class="card-title">Correlatore</h4>
+
+<p class="card-text"><b><i>Correlatore</i></b> è un programma scritto da <a href="https://sites.google.com/site/paolomairano/" target="_blank">Paolo Mairano</a> in Tcl/Tk durante la sua tesi di dottorato presso LFSAG. &Egrave; stato ideato per calcolare automaticamente alcuni correlati ritmici (%V, &Delta;C, &Delta;V, Varcos, PVIs, CCIs - v. la documentazione) a partire dai file di annotazione prodotti da <i>Praat</i>. Quindi, per chi desidera portare avanti ricerche sui correlati acustici del ritmo, è sufficiente etichettare dei file sonori con Praat e, successivamente, aprire i file di etichettatura con <b><i>Correlatore</i></b> per ottenere i valori dei correlati ed, eventualmente, costruire dei grafici.
+</p>
+
+<p class="text-justify"><b><i>Correlatore</i></b> è rilasciato con licenza GPL, dunque può essere scaricato e utilizzato liberamente. Si consiglia di leggere la <a href="./readme.html">documentazione</a> (in particolar modo le avvertenze, in cui vengono specificati i criteri da seguire durante l'etichettatura).
+</p>
+
+<h4>News</h4>
+<p class="text-justify">Da settembre 2015 <a href='http://phonetictools.altervista.org/correlatore/'>la homepage di Correlatore</a> &egrave; stata spostata su una nuovo sito per facilitarne l'aggiornamento. Da l&igrave; &egrave; possibile scaricare l'ultima versione del software.
+</p>
+
+  <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapsedocumentazione" aria-expanded="false" aria-controls="multiCollapseExample1">Documentazione</a>
+<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapsedownload" aria-expanded="false" aria-controls="multiCollapseExample1">Download</a>
+</p>
+<div class="row">
+    <div class="collapse multi-collapse" id="multiCollapsedocumentazione">
+      <div class="card card-body">
+        <h2>CORRELATORE 2.2: DOCUMENTAZIONE</h2>
+
+<h2>LICENZA</h2>
+
+<p>Questo software è rilasciato con <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">licenza GPL</a>. &Egrave; quindi possibile utilizzarlo e/o modificarlo liberamente; tuttavia, <b>l'autore gradisce che il software sia citato se viene utilizzato a scopo di ricerca</b>: basta specificare l'autore - <a href="../paolo_mairano/index.html">Paolo Mairano</a> - e l'indirizzo di questo sito web, oppure citare il seguente articolo:</p> 
+<p>Mairano, P. &amp; Romano, A. (2010) Un confronto tra diverse metriche ritmiche usando Correlatore. In: Schmid, S., Schwarzenbach, M. &amp; Studer, D. (a cura di) <i>La dimensione temporale del parlato</i>, Atti del 5° Convegno nazionale AISV (Associazione Italiana di Scienze della Voce) (Università di Zurigo, Collegiengebaude, 4-6 febbraio 2009), Torriana (RN): EDK, 79-100.</p>
+<p>Secondo i termini della licenza GPL, l'autore non risponde di eventuali danni prodotti dal software. Qualsiasi commento è ben accetto.</p>
+
+<h2>RICONOSCIMENTI</h2>
+
+<p>Questo programma è stato creato esclusivamente con software opensource e può essere scaricato dal sito del Laboratorio di Fonetica Sperimentale "A Genre" dell'Università di Torino.<br>
+&Egrave; stato sviluppato su <a href="http://www.xubuntu.org/" target="_blank">Xubuntu</a> 8.04 con <a href="http://www.tcl.tk/" target="_blank">TCL/TK</a> 8.5 e <a href="http://tkimg.sourceforge.net/" target="_blank">tk-img</a> mentre gli eseguibili sono stati creati con <a href="http://www.equi4.com/tclkit/index.html" target="_blank">Tclkit</a> 8.5, fornito da <a href="http://www.equi4.com/" target="_blank">Equi4</a><br>
+Sono state usate le icone del progetto <a href="http://www.gnome-look.org/content/show.php/Crystal+Clear+for+GNOME?content=26331" target="_blank">CrystalClear for GNOME</a> di Andrew Crouthamel; secondo i termini della licenza GPL, preciso che le icone sono state convertite in formato GIF il 25 maggio 2008
+con <a href="http://www.gimp.org/" target="_blank">the Gimp</a>. Per quanto riguarda le immagini delle bandiere inglese e francese, sono state prese da <a href="http://wikipedia.org/" target="_blank">Wikipedia</a> e convertite in GIF il 26 maggio 2008.<br>
+Ringrazio <a href="../antonio_romano/index.html">Antonio Romano</a> (Università di Torino) per il suo appoggio e per avere aiutato a testare l'applicazione e <a href="http://www.e-allora.net/" target="_blank">Adriano Allora</a> (Università di Torino) per avermi introdotto alla programmazione e a Linux.</p>
+
+<h2>AVVERTENZE</h2>
+
+<p>Questo programma calcola i correlati del ritmo (%V, &Delta;V, &Delta;C, VarcoV, VarcoC, rPVI, nPVI e CCI - v. Riferimenti) a partire dai file di annotazione prodotti da <a href="http://www.fon.hum.uva.nl/praat/" target="_blank">Praat</a>. In ogni file possono essere presenti più tiers, ognuno dei quali può essere etichettato con una trascrizione SAMPA o, semplicemente, CV (dove C indica una consonante, V una vocale). <b>&Egrave; tuttavia necessario seguire le seguenti convenzioni</b> affinché gli script riconoscano correttamente le annotazioni:</p>
+<p><b>CV</b></p>
+<ul>
+	<li>&Egrave; necessario creare un'etichetta per ogni intervallo vocalico o consonantico ed annotarla con tante 'c' o 'v' quanti sono i segmenti fonologici che compongono l'intervallo. Per esempio, 'marcio' deve essere etichettato come |c|v|cc|v|, 'palla' come |c|v|cc|v|, 'accipicchia' come |v|cc|v|c|v|ccc|v|. Le pause vanno lasciate vuote o etichettate come #. Questo tipo di trascrizione lascia l'utente libero di decidere se considerare vocalici o consonantici i segmenti dubbi (es. le consonanti sillabiche) e di controllare pienamente la suddivisione degli intervalli; in questo modo si possono seguire le istruzioni di Bertinetto &amp; Bertini (2008) (v. sotto, la sezione Riferimenti) per il calcolo dei CCI: ad esempio, gli iati possono essere etichettati come 2 intervalli distinti: 'suo' |c|v|v|.</li>
+	<li>In alternativa è anche possibile utilizzare una più semplice segmentazioni in cui non venga indicato il numero di segmenti che compone ogni intervallo, es. 'palla' |c|v|c|v|, 'accipicchia' |v|c|v|c|v|c|v|, ma questo porterà a risultati erronei dei CCI (la cui formula prevede una divisione per il numero di segmenti di ogni intervallo, che in questo caso risulterebbe sempre 1, dando lo stesso risutato degli rPVI).</li>
+</ul>
+<p><b>SAMPA</b></p>
+<ul>
+	<li>&Egrave; necessario che a ogni etichetta corrisponda un solo fono (quindi solo una vocale o una consonante, non un intervallo vocalico o consonantico).</li>
+	<li>I fonemi fonologicamente geminati (es. le vocali lunghe del finlandese e le consonanti geminate dell'italiano) vanno annotate con due etichette distinte (nonstante il confine tra i 2 foni sia naturalmente fittizio). Ad esempio, il finlandese 'saami' deve essere etichettato |s|a|a|m|i|, e non |s|a:|m|i| né |s|aa|m|i|. Altrimenti, il risultato del CCI risulterà errato.</li>
+	<li>&Egrave; possibile usare i diacritici SAMPA standard, ma se si utilizzano diacritici non standard, questi potrebbero interferire con la variabile di sostituzione (v. sotto). Per esempio, se si utilizza t_u (invece di t_w) per indicare una occlusiva dentale sorda labializzata, quell'etichetta verrà erroneamente considerata vocalica a causa del simbolo u.</li>
+	<li>Il programma utilizza una variabile di sostituzione per trasformare le etichette SAMPA in sequenze CV. In questa variabile sono contenuti tutti i simboli che devono essere considerati vocalici: se un'etichetta contiene almeno uno di questi simboli, essa viene considerata una vocale, altrimenti viene considerata una consonante (a meno che non sia vuota o contenga '#' - che indicano una pausa). Il valore della variabile è mostrato nella barra di stato in basso ed è possible modificarlo cliccandoci sopra.</li>
+	<li>Le pause devono essere etichettate con # oppure lasciate vuote.</li>
+	<li>Durante il processo di segmentazione e calcolo dei correlati di un tier etichettato come SAMPA, Correlatore costruirà gli intervalli vocalici e consonantici sommando le durate di ogni consonante/vocale esclusivamente secondo un criterio di adiacenza.</li>
+</ul>
+
+<h2>INSTALLAZIONE</h2>
+
+<p><b>REQUISITI DI SISTEMA:</b> Risoluzione dello schermo 1024x768 o superiore.</p>
+<p><b>Eseguibile per Windows:</b> non è necessaria installazione, è sufficiente fare doppio clic sul file correlatore.exe.</p>
+<p><b>Eseguibile per Mac:</b> non è necessaria installazione, è sufficiente eseguire il file correlatore.</p>
+<p><b>Eseguibile per Linux:</b> non è necessaria installazione, è sufficiente eseguire il file correlatore.</p>
+<p><b>Starkit (qualsiasi sistema operativo):</b> trascinare il file correlatore.kit sul Tclkit del proprio sistema operativo.</p>
+<p><b>Sorgenti (qualsiasi sistema operativo):</b> i sorgenti dovrebbero funzionare su qualsiasi piattaforma su cui sia installato TCL/TK 8.5 (oppure TCL/TK 8.4 + tile) e tk-img (quest'ultimo è necessario solo se si desidera salvare i grafici in formati immagine diversi da Postscript). Navigare fino alla cartella contenente il file correlatore.tcl ed eseguirlo o, da riga di comando, digitare <code>wish8.5 correlatore.tcl</code></p>
+
+<h2>ISTRUZIONI</h2>
+
+<h3>----CALCOLO DEI CORRELATI----</h3>
+<ol>
+<li>Eseguire il file di Correlatore. La prima volta che si esegue l'applicazione apparirà una finestra in cui viene chiesto di specificare la lingua, verrà chiesto di accettare i termini della licenza e se si vuole visualizzare le istruzioni. Dopodiché viene presentata una finestra con un menu, alcuni pulsanti e un riquadro vuoto. La barra di stato in basso mostra il valore corrente della variabile di sostituzione SAMPA.</li>
+<li>Se uno o più file di annotazione di Praat (in formato TextGrid) si trovano nella stessa cartella di Correlatore, essi verranno trovati e automaticamente visualizzati all'interno del riquadro; altrimenti, cliccare Apri file o Apri cartella e navigare fino alla posizione del o dei file TextGrid. Una volta aperto/i il/i file, esso/i sarà/anno visualizzato/i nel riquadro. &Egrave; possibile chiuderne uno selezionandolo e premendo Chiudi file oppure tutti premendo Chiudi tutti.</li>
+<li>Per procedere alla segmentazione e al calcolo dei correlati selezionare un solo file e premere Segmenta e calcola correlati. Verrà aperta una nuova finestra in cui sono mostrati i tier presenti nel file TextGrid e viene chiesto di selezionare quello che contiene le misure dei foni. Il programma cerca di riconoscere se un tier è etichettato come SAMPA o come CV ma chiede conferma. &Egrave; quindi necessario controllare che i tiers siano stati riconosciuti correttamente ed, eventualmente, correggere.</li>
+<li>Fare le scelte adeguate e premere Calcola!. Verranno riempiti i tre riquadri a destra. Nel caso venga riscontrata qualche anomalia sarà presentata una finestra di avvertimento (per esempio, nel caso in cui vengano riscontrate etichette diverse da "c", "v" o "#" in un file etichettato come CV). Nel primo riquadro viene mostrato come il programma ha segmentato i dati e le durate di ogni intervallo consonantico e vocalico per il calcolo di %V, dei delta, varco e dei PVI; nel secondo riquardo viene mostrato come il programma ha segmentato i dati per il calcolo dei CCI (<i>questi 2 riquadri presenteranno dati differenti solo se i TextGrid sono stati etichettati come CV e secondo le convenzioni specificate</i>); è possibile salvare questi dati premendo Salva su file. Nel terzo riquadro vengono presentati alcuni dati quantitativi riguardo al file (n° di intervalli vocalici/consonantici, n° di pause, durata media dei segmenti vocalici/consonantici) e i valori dei correlati (calcolati secondo i metodi A e B, v. sotto). Premendo Aggiungi a report, si aprirà una finestra in cui si chiede di scegliere in quale report aggiungere i dati del file (in seguito sarà possibile visualizzare il contenuto del report premendo Gestisci report dalla finestra principale di Correlatore). Nel riquadro in basso viene mostrata una rappresentazione grafica (personalizzabile) dei segmenti consonantici e vocalici.</li>
+<li>Ora si può premere Pulisci per pulire i due riquadri ed eventualmente calcolare i correlati su altri tier. Altrimenti premere Chiudi per tornare alla finestra principale. In qualsiasi momento è possibile premere Aiuto per visualizzare questa guida.</li>
+<li><i>(Nuovo in 2.2)</i>Se si dispone di numerosi TextGrid con lo stesso formato (cioè lo stesso numero di tier e le stesse convenzioni di annotazione), è possibile processarli in modo automatico. Una volta che sono stati aperti tutti i TextGrids in Correlatore, basta cliccare su Processa tutti i file in batch. Si aprirà una finestra che richiede di precisare quale tier contiene la segmentazione (1, 2, etc.) e il tipo di annotazione. Cliccando su Vai! viene avviato il batch e, se tutto va come previsto, si troveranno i risultati nel report.</li>
+</ol>
+
+<h3>----REPORT E GRAFICI----</h3>
+
+<p>Dal riquadro a destra della finestra principale di Correlatore è possibile gestire i <b>report</b> (un report contiene i risultati del cacolo dei correlati di uno o più file). In alto c'è un menu che permette di selezionare un report tra quelli esistenti. Per visualizzare ed, eventualmente, effettuare modifiche al report selezionato, premere Gestisci report:  verrà aperta una nuova finestra in cui sono mostrati tutti gli item presenti nel report. Cliccando sopra ognuno di essi ne vengono visualizzati i valori. &Egrave; possibile rinominare uno o più item, eliminarli o calcolarne la media. In quest'ultimo caso, nel nuovo item contenente le medie, saranno presenti anche aggiornati i valori di ErrBar (errore standard o deviazione standard a seconda della scelta dell'utente), che verranno utilizzati per le barre d'errore nei grafici. Quindi, per esempio, è possibile far segmentare un file a 2 persone, calcolare i correlati su entrambi i file, salvare i risultati nel report e calcolarne la media: in questo modo quando si creerà un grafico con questi dati, verrà mostrato un punto sui valori della media con delle barre d'errore che riflettono la deviazione standard inter-operatore.<br />
+&Egrave; naturalmente possibile creare nuovi report, rinominarli, importarli ed esportarli. Queste operazioni possono essere svolte cliccando sul pulsante-asterisco di fianco al menu di scelta report nella finestra principale. L'importazione/esportazione dei report permette di scambiare facilmente i dati tra più computer o tra più utenti, <b>ma è necessario prestare attenzione al fatto che anche solo una piccola modifica al loro interno potrebbe renderli inutilizzabili da Correlatore</b>: al momento dell'importazione di un report, infatti, Correlatore non controlla che esso sia valido (controlla esclusivamente che sia in formato di testo), questa responsabilità viene lasciata all'utente.
+</p>
+<p>&Egrave; anche possibile creare dei <b>grafici</b> a partire dai dati contenuti nel report. Dalla finestra principale è sufficiente scegliere il report che contiene i dati desiderati, il correlato da mettere sull'asse delle x e quello da mettere sull'asse delle y e premere Disegna grafico. Verrà presentata una finestra contente il grafico e varie opzioni per configurarlo: è possibile specificare le dimensioni del grafico, la forma e il colore degli indicatori, il formato degli assi, delle etichette, della legenda, del titolo, etc. Il grafico può essere esportato in diversi formati (JPEG, PNG, GIF, BMP, TIFF etc.) premendo su Salva come immagine o in codice R cliccando su Esporta in R.</p>
+
+<h3>----PREFERENZE E CONFIGURAZIONE----</h3>
+
+<p>Le preferenze e la configurazione di Correlatore sono persistenti, cioè non vengono cancellate alla chiusura del programma poiché vengono mantenute in un file di configurazione.</p>
+<p>La <b>variabile di sostituzione</b> è una variabile che serve a trasformare le trascrizioni SAMPA in sequenze del tipo CV. In essa sono contenuti tutti i simboli che, durante la trasformazione, verranno considerati vocalici: cioè, quando il programma apre un file TextGrid etichettato in SAMPA, ogni etichetta viene sostituita con una V se essa contiene uno dei simboli presenti nella variabile di sostituzione, altrimenti con una C, se essa contiene solo simboli non presenti nella variabile di sostituzione (a meno che contenga # - in qual caso viene considerata una pausa). Il valore di default della variabile è aeiouyAEIOUY@MQV&amp;1236789={} (quindi sono incluse le consonanti sillabiche, mentre i glides vengono considerati consonantici), ma è possibile modificarlo cliccando sulla barra in basso in cui è indicato il valore di questa variabile oppure dal menu Modifica, Modifica variabile di sostituzione.</p>
+<p>Le <b>preferenze correlati</b> stabiliscono il metodo di calcolo dei correlati. Esistono 2 possibilità:<br>
+A) possono essere calcolati in un'unica statistica, cioè applicando la formula dei delta, varco, pvi o cci su tutti gli intervalli vocalici e consonantici presenti in un tier.<br>
+B) possono essere calcolati applicando la formula dei delta, varco, pvi o cci agli intervalli vocalici e consonantici di ogni singolo intervallo interpausale e poi calcolando la media dei valori ottenuti.<br>
+A partire dalla versione 2.0 di Correlatore, tutti i correlati vengono calcolati in entrambi i modi (ed entrambi i risultati vengono salvati nei report); tuttavia, è necessario specificare quali risultati utilizzare per la costruzione di grafici: per default vengono utilizzati i correlati calcolati con il metodo A, ma è possibile modificare questo comportamento per ogni singolo correlato cliccando su Correlati nella barra degli strumenti, oppure dal menu Modifica, Preferenze correlati.</p>
+<p>Per visualizzare le <b>funzioni di calcolo</b> dei correlati usate dal programma, cliccare su Formule oppure dal menu Modifica, Visualizza implementazione TCL dei correlati. Verrà aperta una nuova finestra con le formule dei correlati, la loro implementazione TCL ed è possibile inserire dei valori numerici o importarli da un file TXT per applicare su di loro le varie formule.</p>
+<p>&Egrave; possibile cambiare la <b>lingua</b> (inglese o italiano) premendo sul tasto corrispondente.</p>
+<p>&Egrave; possibile nasconere o ripristinare la <b>barra di stato</b>, la <b>barra degli strumenti</b> e i <b>suggerimenti</b> tramite il menu visualizza. Sempre da questo menu, su sistemi Unix è anche possibile cambiare tema (default, clam, alt).<br></p>
+<p> <i>Nuovo in 2.2</i> &Egrave; possibile <b>escludere alcuni intervalli</b> dal computo dei correlati del ritmo (iniziali di frasi, finali di frase, intervalli troppo poco numerosi in una frase). Per default, nessun intervallo iniziale o finale di frase viene escluso, ma è possibile cambiare questo comportamento modificando i valori nella parte bassa della finestra principale. Da notare anche che se una frase (definita come intervallo tra due pause) contiene meno di 2 intervalli vocalici o 2 intervalli conosonantici, questi valori saranno necessariamente esclusi (infatti sono necessari almeno 2 valori per poter applicare le formule dei correlati ritmici). Questo comportamento può cambiare incrementando il numero minimo di intervalli richiesti (Min. di intervalli per frase). Attenzione: se si è scelto di escludere intervalli finali e iniziali, questi intervalli esclusi non entrano più nel conto di intervalli della frase. Per esempio, con una frase di 10 intervalli (cc - v - c - v - cc - vv - ccc - v - cc - v) in cui vengono esclusi 1 intervallo iniziale e 2 intervalli finali, si ottiene (v - c - v - cc - vv - ccc - v); quindi, se si sceglie di settare 'Min intervals per sentence' a 5, verranno esclusi tutti i rimanenti intervalli (4 vocalici e 3 consonantici). Gli intervalli esclusi vengono mostrati in grigio nella finestra di segmentazione.</p>
+
+<h2>RIFERIMENTI</h2>
+
+<p>Bertinetto, P. M. &amp; Bertini, C. (2008). On modeling the rhythm of natural languages. <i>Proc. of the 4<sup>th</sup> International Conference on Speech Prosody</i>, Campinas 2008, 427-430.</p>
+<p>Boersma, P. &amp; Weenink, D. (2005) Praat: doing phonetics by computer. Retrieved from <a href="http://www.praat.org/" target="_blank">http://www.praat.org/</a>.</p>
+<p>Dellwo, V. (2006). Rhythm and speech rate: A variation coefficient for deltaC. <i>Language and Language Processing: Proceedings of the 38th Linguistic Colloquium</i>, Piliscsaba 2003, ed. by Pawel Karnowski Imre Szigeti, 231–241. Frankfurt: Peter Lang.</p>
+<p>Grabe, E. &amp; Low, E.L. (2002). Durational variability in speech and the rhythm class hypothesis. In: Gussenhoven, C., Warner, N. (eds), <i>Papers in Laboratory Phonology</i> 7, Berlin: Mouton de Gruyter, 515-546.</p>
+<p>Mairano, P. &amp; Romano, A. (2010) Un confronto tra diverse metriche ritmiche usando Correlatore. In: Schmid, S., Schwarzenbach, M. &amp; Studer, D. (a cura di) <i>La dimensione temporale del parlato</i>, Atti del 5° Convegno nazionale AISV (Associazione Italiana di Scienze della Voce) (Università di Zurigo, Collegiengebaude, 4-6 febbraio 2009), Torriana (RN): EDK, 79-100.</p>
+<p>Ramus, F., Nespor, M. &amp; Mehler, J. (1999). Correlates of linguistic rhythm in the speech signal. <i>Cognition</i>, 73/3, 265-292.</p>
+<p>Welch, B. B., Jones &amp; K. Hobbs, J. (2003). Practical Programming in Tcl and Tk, 4<sup>th</sup> ed., Prentice Hall PTR.</p>
+<p>Wells, J.C. (1997). SAMPA computer readable phonetic alphabet. In  Gibbon, D., Moore, R. and Winski, R. (eds.), 1997. <i>Handbook of Standards and Resources for Spoken Language Systems</i>. Berlin and New York: Mouton de Gruyter. Part IV, section B.</p>
+
+
+      </div>
+    </div>
+  </div>
+    <div class="collapse multi-collapse" id="multiCollapsedownload">
+      <div class="card card-body">
+        <p>Correlatore &egrave; stato ospitato su questo sito per pi&ugrave; di 5 anni ma da settembre 2015 &egrave; stato spostato su una nuova pagina per facilitarne l'aggiornamento.<br/><a href='http://phonetictools.altervista.org/correlatore/' target="_blank">Visitate la nuova homepage per scaricare l'ultima versione del software!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div><!-- card block -->
+
+</div><!--card-->
+
+
+
+
+
+</div><!-- container-->
+
+
+    
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>
