@@ -1,0 +1,42 @@
+{
+  "1": {
+    "speaker": "C",
+    "age": "H",
+    "sex": "F"
+  },
+  "2": {
+    "speaker": "C",
+    "age": "H",
+    "sex": "M"
+  },
+  "3": {
+    "speaker": "C",
+    "age": "L",
+    "sex": "F"
+  },
+  "4": {
+    "speaker": "C",
+    "age": "L",
+    "sex": "M"
+  },
+  "5": {
+    "speaker": "I",
+    "age": "H",
+    "sex": "F"
+  },
+  "6": {
+    "speaker": "I",
+    "age": "H",
+    "sex": "M"
+  },
+  "7": {
+    "speaker": "I",
+    "age": "L",
+    "sex": "F"
+  },
+  "8": {
+    "speaker": "I",
+    "age": "L",
+    "sex": "M"
+  }
+}

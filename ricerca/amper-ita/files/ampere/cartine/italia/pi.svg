@@ -1,0 +1,7 @@
+.cls-pi {
+fill: #231f20;
+}
+
+
+
+<circle class="cls-pi pigroup roma" picode="roma" cx="137.21" cy="250.96" r="8.75"/>

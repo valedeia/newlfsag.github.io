@@ -1,0 +1,38 @@
+<div class="cartina col-md-4">
+    <div class="box area box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '/' + nazioneP + '_' + areaP + '.svg'" onload="svgLoaded()"></div>
+    <div class="area-label">
+        {{PiOverLabel | uppercase}}
+    </div>
+</div>
+
+<div class="descrizione" ng-class="{'col-md-8': !piP, 'col-md-4': piP}">
+    <h2 class="title">{{nazioneData.label | uppercase}}</h2>
+    <h3 class="title">{{areaLabel | uppercase}}</h3>
+    <p class="descrizione" ng-bind-html="areaData.descrizione"></p>
+    <div class="guida" ng-hide="piP">
+        <h4 class="title"><i class="fa fa-info-circle" style="color:#A04779;" aria-hidden="true"></i> Guida</h4>
+        <p class="descrizione">
+            Selezionare un punto sulla mappa per continuare
+        </p>
+    </div>
+</div>
+
+<div class="locutori col-md-4" ng-show="piP">
+    <div class="box box-shadow-pink">
+        <div class="locutore loc-row" ng-if="locutori" ng-repeat="(locId, loc) in locutori">
+            <div class="info">Locutore {{$index +1}} - {{piLabel}}
+                <div class="prop">
+                    <locicon loc-id="locId"></locicon>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="images/amper/audio_ombra.svg" ng-click="goToFrase(locId)"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="test">
+    <a href="/#/guida">Guida</a>
+</div>  -->

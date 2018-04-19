@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=El Messiri">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- Questo tag permette una ottima visualizzazione da tutti gli schermi , pc, tablet, smartphone-->
+		<link rel="stylesheet" href="css/style.css"> 
+		<!-- tag che consente di unire lo stile di un file esterno (stylesheet in questo caso, rel specifica la relazione tra i due file) a un documento html-->
+		<title>VIP - Voices of Italian Poets</title>
+		<meta name="author" content="Valentina Colonna & Antonio Romano">
+		<meta name="generator" content="Macromedia Dreamweaver 8">
+		<meta name="description" content="Progetto VIP - Voices of Italian Poets - Dottorato di Valentina Colonna Tutor Antonio Romano">
+		<script type="text/javascript">
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+	    // fine scroll
+		// inizio parte dedicata ai tooltip e al popover bootstrap
+		$(document).ready(function(){
+			$('[data-toggle="lfsag"]').tooltip();   
+			  $('[data-toggle="lingue"]').tooltip();   
+				$('[data-toggle="unito"]').tooltip();  
+				  $('[data-toggle="clips"]').tooltip();   
+				    $('[data-toggle="popover"]').popover();    
+		});
+		</script>
+</head>
+
+<body>
+	<!--https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+	<button onClick="$('html,body').animate({scrollTop:0},'slow');return false;" id="myBtn" title="Go to top" class="myBtn btn btn-info"> 
+	<!--icona da http://getbootstrap.com/components/#btn-groups--><i class="glyphicon glyphicon-chevron-up"></i>Torna su</button>
+	
+	<div class="container">
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			  <a class="navbar-brand" id="top" href="#" data-placement="bottom" data-toggle="popover" title="Realizzato da Valentina Colonna & Antonio Romano sul modello di quello di Pro(so)praat (a cura di Elisa Di Nuovo)" data-content="Logo realizzato da: Antonio Duma; Info: valentina_colonna@yahoo.it"><img src="loghi/logo_vip.jpg" class="logo"></a>
+			</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			  <li class="active tasti_menu"><a href="#">Home</a></li>
+			  <li class="tasti_menu"><a href="VIP_platform.html">VIP – PLATFORM</a></li>
+			  <li class="tasti_menu"><a href="VIP_phonetics.html">Metodo di studio e descrizioni fonetiche</a></li>
+			  <li class="tasti_menu"><a href="VIP_21marzo.html">VIP - GMP 21 marzo</a></li>
+			</ul>
+		  </div>
+		  </div>
+		</nav>
+		
+	  <div class="jumbotron distanza">
+
+		<div align="center"> <a href="#myModal" data-toggle="modal"> <img class="logo_footer" src="loghi/logo_vip.jpg"> </a> </div>
+<br>
+<p><b>Italian Platform of poetry reading recordings - VIP.</b><br>
+Voices of Italian Poets è una piattaforma digitale di documenti sonori della poesia italiana del Novecento e contemporanea, corredati da analisi e comparazioni fonetiche. <br>
+L’archivio costituisce parte del progetto del Dottorato di Ricerca di Valentina Colonna (PhD Student in Digital Humanities presso UniGe-UniTo – Italy) e rappresenta una significativa banca-dati di molteplici interpretazioni (a opera di poeti contemporanei, speaker, attori, critici) di selezionati testi della letteratura del Novecento, di cui si sono recuperate anche le letture originali degli autori.<br>
+A questi dati si aggiungono le registrazioni originali di testi editi e inediti di poeti contemporanei che leggono testi propri.<br>
+<br>
+L’archivio, in fase di costruzione e che il Laboratorio di Fonetica Sperimentale “Arturo Genre” dell’Università di Torino mette a disposizione di tutti sul suo sito, rende accessibile, non solo a ricercatori e studiosi ma anche al pubblico di appassionati, lettori e poeti, una rassegna di interpretazioni diverse e uniche del testo poetico.<br>
+In modo analogo al rapporto tra composizione e interpretazione in musica si presenta e osserva il rapporto tra il testo e le sue varie letture, che gli danno voce.<br>
+Il tipo di approccio utilizzato in questo progetto fa uso di metodologie di Fonetica e si propone di individuare le potenzialità sonore della scrittura poetica, guardando al punto di connessione tra la lettura ad alta voce e il testo scritto.<br>
+Il progetto continua il lavoro avviato con la tesi magistrale di Valentina Colonna, dedicata alle “Prosodie del Congedo del viaggiatore cerimonioso di Giorgio Caproni”.<br>
+Otto di dodici registrazioni analizzate costituiscono il primo nucleo di archivio e di ricerca sull’argomento e inaugurano la piattaforma: le voci sono quelle di poeti contemporanei e speaker radiofonici che si sono gentilmente resi disponibili nella lettura della prosopopea caproniana.<br>
+Lo studio originario ha preso in analisi anche la lettura dell’autore, nucleo centrale e di partenza del lavoro, e di tre attori, tra cui Achille Millo, dedicatario del testo.
+Centrali in questo studio sono: l’osservazione della suddivisione prosodica rispetto a quella metrica; l’individuazione delle principali “categorie intonative” melodiche; l’indagine sul ritmo del verso libero italiano, partendo dall’osservazione del dato acustico in relazione alla struttura testuale; l’identificazione di un impianto retorico della prosodia e l’osservazione di tendenze dominanti davanti ai fenomeni retorici del testo (quali l’inarcatura, la rima, l’assonanza, la consonanza).<br>
+Il lavoro, basato su dati concreti e teorici tra loro in comparazione, si prefigge di utilizzare una metodologia di studio innovativa, che non vuole sostituirsi ai precedenti metodi ma arricchirli, basandosi su un principio di multidisciplinarietà e adottando un’osservazione comparativa interna al parlante e tra locutori.<br>
+</p> 
+	  </div>
+	
+		<div class="well row margini" align="center">
+			 <div class="col-sm-4">
+			 <a target="_blank" href="http://www.lfsag.unito.it/" data-toggle="lfsag" title="www.lfsag.unito.it"><img alt="logo lfsag" height="130px" src="loghi/logo_lfsag.gif" class="img-rounded img_shadow"></a>
+			 </div>
+			 <div class="col-sm-4"> 
+			 <a target="_blank" href="http://www.lingue.unito.it/do/home.pl" data-toggle="lingue" title="www.lingue.unito.it"><img alt="logo lingue" height="130px" src="loghi/logo_lingue.png" class="img-rounded img_shadow_rounded"></a>
+			 </div>
+			 <div class="col-sm-4">
+			 <a target="_blank" href="https://www.unito.it/"  data-toggle="unito" title="www.unito.it"><img alt="logo unito" height="130px" src="loghi/logo_unito.jpg" class="img-rounded img_shadow"></a>
+			 </div>
+		</div>
+	
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-sm">
+			
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">x</button>
+					<h4 class="modal-title">Informazioni</h4>
+				  </div>
+				  <div class="modal-body">
+<p>Sito realizzato da <span>Valentina Colonna & Antonio Romano sul modello di quello di Pro(so)praat (a cura di Elisa Di Nuovo)</span></p><br>
+					<p class="email_modal">Info: <a href="mailto:valentina_colonna@yahoo.it">valentina_colonna@yahoo.it</a>; <a href="mailto:valentina.colonna@unito.it">valentina.colonna@unito.it</a></p>
+				  </div>
+				
+				</div>
+			
+			  </div>
+			</div>
+			
+			<!-- Fine Modal -->
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "descrizione": "In quest'area le località esplorate non presentano una generale convergenza di modelli.<br>Le inchieste sono state condotte in tempi e modalità relativamente diversi.<br>Le regioni interessate sono la Sicilia, parte della Calabria e della Puglia centrale e meridionale.<br>",
+  "sottoaree": {
+    "072": {
+      "label": "siciliano"
+    }
+  },
+  "cities":{
+    "pollina": {
+      "label": "Pollina",
+      "active": true,
+      "sottoarea": "072",
+      "locutori": {
+        "0724": {
+          "varietà": "",
+          "gruppofrase": "gruppo3",
+          "descrizione": "Nelle proposizioni di questa località si è potuto definire un questionario di base col ricorso a vocali di tipo [a] e consonanti quasi sempre ostruenti sorde.<br>La presenza di elementi lessicali o morfologici inizianti per vocale causa fenomeni di contatto (in genere tra verbo e articolo di SN2) risolti con una fusione (separata virtualmente solo ai fini del mantenimento di un numero di sillabe che la renda comparabile con le altre).<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un troncamento del CTM (contorno terminale di modalità) che perde la parte finale (visibile invece nei casi di parossitono e proparossitono).<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali con occasionale salienza della sillaba accentata del verbo.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La (maggiore) lunghezza della frase induce il parlante a segmentarla con sistematico isolamento del tema e la realizzazione di due-tre prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        }
+      }
+    }
+  }
+}

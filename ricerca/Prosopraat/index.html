@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=El Messiri">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- Questo tag permette una ottima visualizzazione da tutti gli schermi , pc, tablet, smartphone-->
+		<link rel="stylesheet" href="css/style.css"> 
+		<!-- tag che consente di unire lo stile di un file esterno (stylesheet in questo caso, rel specifica la relazione tra i due file) a un documento html-->
+		<title>Pro(so)Praat</title>
+		<meta name="author" content="Elisa Di Nuovo">
+		<meta name="generator" content="Macromedia Dreamweaver 8">
+		<meta name="description" content="Progetto Pro(so)Praat per la tesi di Elisa Di Nuovo Relatore Antonio Romano">
+		<script type="text/javascript">
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+	    // fine scroll
+		// inizio parte dedicata ai tooltip e al popover bootstrap
+		$(document).ready(function(){
+			$('[data-toggle="lfsag"]').tooltip();   
+			  $('[data-toggle="lingue"]').tooltip();   
+				$('[data-toggle="unito"]').tooltip();  
+				  $('[data-toggle="clips"]').tooltip();   
+				    $('[data-toggle="popover"]').popover();    
+		});
+		</script>
+</head>
+
+<body>
+	<!--https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+	<button onClick="$('html,body').animate({scrollTop:0},'slow');return false;" id="myBtn" title="Go to top" class="myBtn btn btn-info"> 
+	<!--icona da http://getbootstrap.com/components/#btn-groups--><i class="glyphicon glyphicon-chevron-up"></i>Torna su</button>
+	
+	<div class="container">
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			  <a class="navbar-brand" id="top" href="#" data-placement="bottom" data-toggle="popover" title="Realizzato da Elisa Di Nuovo" data-content="Info: elisa.dinuovo@gmail.com"><img src="loghi/logo_prosopraat.jpg" class="logo"></a>
+			</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			  <li class="active tasti_menu"><a href="#">Home</a></li>
+			  <li class="tasti_menu"><a href="annotazione_ortografica.html">Annotazione ortografica tramite Praat</a></li>
+			  <li class="tasti_menu"><a href="progetto_prosopraat.html">Progetto Pro(so)Praat</a></li>
+			</ul>
+		  </div>
+		  </div>
+		</nav>
+		
+	  <div class="jumbotron distanza">
+		<p> La necessità di una forma di <b>trascrizione ortografica</b> dei testi di una raccolta di parlato viene ribadita come operazione preliminare e imprescinbibile per la costituzione stessa, la fruibilità e la riutilizzabilità di un <i>corpus </i>(<span>Gibbon et al., 1997:79</span>): essa costituisce infatti il primo (eventualmente anche unico) stadio della codifica, cioè dello strumento che dota il corpus di una struttura organizzata che permette di mantenere una distinzione tra i dati e la loro rappresentazione (<span>Llisterri, 1997:1</span>). </p> <p> La trascrizione rende il testo orale (inteso, in senso ampio, come un "pezzo di comunicazione linguistica che si possa considerare per qualche ragione come un insieme unitario", cfr. <span>Ide, 1996:1.1</span>) permanente, maneggiabile e analizzabile per molteplici scopi. </p> <p> All'operazione di rappresentazione, segue quella di interpretazione del testo che consiste nell'aggiunta di informazioni di vario tipo al testo stesso, in diversi gradi a seconda dei diversi scopi che si prefigge. </p> <p> L'intera operazione di codifica di un corpus consiste nel rendere espliciti i vari tipi di interpretazione del testo. <p> Per i motivi appena esposti, la trascrizione ortografica convenzionale dei testi prodotti è comune a tutti i corora di lingua orale, qualche sia l'obiettivo che si propongono, qualunque sia l'ambito di studio applicativo in cui rientrano, qualunque sia il pubblico a cui si rivolgono. </p> <p> Tale operazione preliminare va intesa come una forma di semplice <i>sbobinatura</i> della registrazione (nel caso di testi spontanei o semi-spontanei) o corrisponde semplicemente al testo scritto presentato al soggetto (nel caso di testi letti). </p> <p> La codifica prevede di norma anche un'operazione di annotazione del testo stesso, che arricchisce la trascrizione di una serie di dettagli descrittivi e interpretativi. </p> <p> Per entrambe le operazioni nel <a target="_blank" href="http://www.parlaritaliano.it/attachments/article/716/Norme_CLIPS_trascrizione_ortografica.pdf"  data-toggle="clips" title="CLIPS.pdf"> progetto CLIPS (Corpora e Lessici dell'Italiano Parlato e Scritto)</a> e in <a href="http://www.elda.fr/en/proj/coralrom.html">C-ORAL-ROM</a> sono state proposte norme specifiche e definiti protocolli standardizzati che mirano a facilitare l'utilizzo e l'interscambiabilità tra i numerosi corpora raccolti e costituiti in ambito internazionale. </p> <p> Le norme proposte e adottate nei diversi progetti si basano su principi generali diffusi e comuni ma, allo stesso tempo, si differenziano in risposta a criteri specifici variabili secondo l'obiettivo e le finalità utime per le quali il corpus viene raccolto e codificato. </p> <p> L'obiettivo principale dell'annotazione è quello di avere un testo scritto utilizzabile in maniera per così dire 'autonoma' rispetto alla produzione vocale, dal quale, quindi, sia possibile estrarre un certo numero di informazioni linguistiche (relative ai vari livelli di analisi), paralinguistiche e anche extralinguistiche (per esempio, situazionali). </p> 
+	  </div>
+	
+		<div class="well row margini" align="center">
+			 
+			 <div class="col-sm-4">
+			 <a target="_blank" href="http://www.lfsag.unito.it/" data-toggle="lfsag" title="www.lfsag.unito.it"><img alt="logo lfsag" height="90px" src="loghi/logo_lfsag.gif" class="img-rounded img_shadow"></a>
+			 </div>
+			 <div class="col-sm-4"> 
+			 <a target="_blank" href="http://www.lingue.unito.it/do/home.pl" data-toggle="lingue" title="www.lingue.unito.it"><img alt="logo lingue" height="90px" src="loghi/logo_lingue.png" class="img-rounded img_shadow_rounded"></a>
+			 </div>
+			 <div class="col-sm-4">
+			 <a target="_blank" href="https://www.unito.it/"  data-toggle="unito" title="www.unito.it"><img alt="logo unito" height="90px" src="loghi/logo_unito.jpg" class="img-rounded img_shadow"></a>
+			 </div>
+		</div>
+		<div align="center"> <a href="#myModal" data-toggle="modal"> <img class="logo_footer" src="loghi/logo_prosopraat.jpg"> </a> </div>
+	
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-sm">
+			
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">x</button>
+					<h4 class="modal-title">Informazioni</h4>
+				  </div>
+				  <div class="modal-body">
+					<p>Progetto realizzato da <span>Elisa Di Nuovo</span></p><br>
+					<p class="email_modal">Info: <a href="mailto:elisa.dinuovo@gmail.com">elisa.dinuovo@gmail.com</a></p>
+				  </div>
+				
+				</div>
+			
+			  </div>
+			</div>
+			
+			<!-- Fine Modal -->
+	</div>
+
+</body>
+</html>

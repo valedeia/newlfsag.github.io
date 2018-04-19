@@ -1,0 +1,51 @@
+<script type="text/ng-template" id="corsi-template.html">
+    <div class="panel {{panelClass || 'panel-default'}}">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                    <span ng-class="{'text-muted': isDisabled}">{{heading}}</span>
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" uib-collapse="!isOpen">
+            <div class="panel-body" ng-transclude></div>
+        </div>
+    </div>
+</script>
+
+
+<h2 style="text-align:center; font-weight: bold;"><span style='font-size:12.0pt'>In questa sezione vengono dati alcuni suggerimenti su come utilizzare il sito.<o:p></o:p></span></h2>
+
+
+
+
+Selezionando la voce “Italia” si accede alla mappa dell’Italia, suddivisa secondo le aree dialettali individuate dal glottologo Gian Battista Pellegrini. 
+<br>Per scegliere un’area, è sufficiente cliccarci sopra. [Attenzione, alcune aree non sono ancora attive poiché non ci sono ancora dati disponibili!]
+
+<br>
+<br>Cliccando per esempio sull’area gallo-italica, si accede ad una nuova pagina in cui l’area selezionata appare ingrandita per permettere all’utente di scegliere tra i punti d’inchiesta presenti. Inoltre, ciascun ingrandimento è accompagnato da alcune informazioni complementari sui modelli intonativi presenti nella determinata area. 
+<br>
+<br>Una volta selezionato un punto, sulla destra comparirà un elenco con i vari locutori rappresentanti della varietà (per esempio, Genova, nell’area gallo-italica).
+<br>
+<br>I simboli presenti accanto a ciascun locutore forniscono alcune informazioni specifiche come il genere (uomo o donna), l’età (giovane o anziano) e il grado di conoscenza del dialetto parlato (parlante conservativo o innovativo).
+
+<br>
+<br>Cliccando sul megafono dentro il quadrato viola si accede al corpus di frasi.
+
+<br>Queste sono suddivise secondo due gruppi principali, frasi basi o frasi espanse.
+
+<br>Ciascuna frase è composta da un soggetto (quadrati viola), un verbo (quadrati azzurri), un complemento oggetto (quadrati verdi).
+
+<br>Ciascun quadrato corrisponde ad una sillaba e i quadrati pieni indicano che la sillaba è accentata.
+
+<br>Per esempio, il verbo è un bisillabo tronco.
+<br>
+
+<br>Prima di giungere all’ascolto, è possible scegliere la tipologia di accento del complemento oggetto (sia nelle frasi base che in quelle espanse) e dell’espansione del soggetto o dell’oggetto (nelle frasi espanse). Cliccando nuovamente sul megafono dentro il quadrato viola si accede così alla frase scelta.
+
+<br>La frase è detta in modalità affermativa (in rosso) e interrogativa (in blu). Ciò che si ascolta però è la frase delessicalizzata.
+
+<br>Passando il mouse sulla frase è inoltre possibile leggerne la trascrizione fonetica, tra parentesi quadre.
+
+<br>Le immagini mostrano invece la curva intonativa delle due modalità e l’istogramma con i valori delle durate di ciascuna porzione vocalica.
+</div>

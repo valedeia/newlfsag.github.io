@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=El Messiri">
+		
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- Questo tag permette una ottima visualizzazione da tutti gli schermi , pc, tablet, smartphone-->
+		<link rel="stylesheet" href="css/style.css"> 
+		<!-- tag che consente di unire lo stile di un file esterno (stylesheet in questo caso, rel specifica la relazione tra i due file) a un documento html-->
+		<title>Pro(so)Praat</title>
+		<meta name="author" content="Elisa Di Nuovo">
+		<meta name="generator" content="Macromedia Dreamweaver 8">
+		<meta name="description" content="Progetto Pro(so)Praat per la tesi di Elisa Di Nuovo Relatore Antonio Romano">
+		
+		<script type="text/javascript">
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+		
+		$(document).ready(function(){
+			$('[data-toggle="lfsag"]').tooltip();   
+			  $('[data-toggle="lingue"]').tooltip();   
+				$('[data-toggle="unito"]').tooltip();
+				  $('[data-toggle="diz"]').tooltip();   
+				    $('[data-toggle="invson"]').tooltip();  
+					  $('[data-toggle="popover"]').popover();       
+		});
+		
+		$(document).ready(function () {
+     $('.collapse')
+         .on('shown.bs.collapse', function() {
+             $(this)
+                 .parent()
+                 .find(".glyphicon-plus")
+                 .removeClass("glyphicon-plus")
+                 .addClass("glyphicon-minus");
+             })
+         .on('hidden.bs.collapse', function() {
+             $(this)
+                 .parent()
+                 .find(".glyphicon-minus")
+                 .removeClass("glyphicon-minus")
+                 .addClass("glyphicon-plus");
+             });
+         });
+		</script>
+</head>
+
+<body>
+	
+  <button onClick="$('html,body').animate({scrollTop:0},'slow');return false;" id="myBtn" title="Go to top" class="myBtn btn btn-info"> <i class="glyphicon glyphicon-chevron-up"></i> Torna su</button>
+	
+	<div class="container">
+		
+	<nav class="navbar navbar-default navbar-fixed-top" >
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		  <a class="navbar-brand" id="top" href="#" data-placement="bottom" data-toggle="popover" title="Realizzato da Elisa Di Nuovo" data-content="Info: elisa.dinuovo@gmail.com"><img src="loghi/logo_prosopraat.jpg" class="logo" ></a> 
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+		  <li class="tasti_menu"><a href="index.html">Home</a></li>
+		  <li class="tasti_menu"><a href="annotazione_ortografica.html">Annotazione ortografica tramite Praat</a></li>
+		  <li class="tasti_menu active"><a href="#">Progetto Pro(so)Praat</a></li>
+		</ul>
+		</div>
+	  </div>
+	</nav>
+	 
+	 <div class=" distanza jumbotron">
+	  
+	  
+	<p> Il progetto Pro(so)Praat si pone come scopo quello di aiutare gli usuari del software Praat a realizzare l'annotazione ortografica (per poi arrivare a quella prosodica e tematica) del parlato. <br> Verranno realizzati tanti video tutorial in cui saranno approfonditi vari temi utili all'annotazione del parlato. Il primo video, già disponibile online, si occupa della <b>trascrizione ortografica</b>, dandone le specifiche necessarie ad assolvere i <a href="annotazione_ortografica.html#àncora">requisiti minimi della trascrizione annotata</a>. 
+	 </p>
+	<p> Riferimenti bibliografici:</p>
+		  <ul>
+			<li> <a target="_blank" href="http://www.lfsag.unito.it/ricerca/ROMANO_2008_inventari_sonori_CDE.pdf" data-toggle="invson" title="inventari_sonori_CDE.pdf"> Appendice D</a>, in <i>Inventari Sonori delle Lingue</i>, Trascrizione ortografica convenzionale e annotazione di materiali orali in rif. a  Savy et al., 2006 </li>
+			<li> <i> Dizionario della lingua italiana <a target="_blank" href="http://dizionario.internazionale.it/" data-toggle="diz" title="dizionario.internazionale.it"> De Mauro Paravia 2000</a> </i> </li>
+		  </ul>
+	   </div>
+
+	  
+	    <!-- VIDEO 1 -->
+    <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/uGs5k7PBYVo" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li> Comandi base Praat</li>
+	  <li>Pausa lunga e breve</li>
+	  <li>Delimitare tier</li>
+	  <li>Rumore e porzioni audio non rilevanti</li>
+	  <li>Rumore sovrapposto</li>
+	  <li>Confini di parola: sinalefe e dialefe</li>
+	  <li> Colpo di glottide</li>
+	  <li>Strascico vocalico</li>
+	  <li>Allungamento espressivo</li>
+	  <li>Epitesi</li>
+	  <li> Interiezioni e iconimi</li>
+	  <li>Annotazione grafica, riferimenti</li>
+	  <li>Neologismi, lapsus e forestierismi non lessicalizzati</li>
+	  <li>Parole composte ed espressioni polirematiche</li>
+	  <li> Nomi propri</li>
+	  <li>Titolo</li>
+	  <li>Espressioni difficili da separare</li>
+	  <li>Numeri</li>
+	  <li>Sigle</li>
+	  <li>Troncamento</li>
+	  <li>Elisione e aferesi</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li> Romano A. &amp; Miletto A.M. (2010), Argomenti scelti di glottologia e linguistica. Torino: Omega</li>
+	   <li> Romano A. (2008). Inventar&icirc; sonori delle lingue: elementi descrittivi   di sistemi e processi di variazione segmentali e sovrasegmentali.   Alessandria: Dell&rsquo;Orso</li>
+	   <li>Savy, R., "Progetto Clips: Specifiche per la trascrizione ortografica   annotata", in F. Albano Leoni, R. Giordano, Analisi di un dialogo,   Napoli, Liguori, pp. 1-28 (Documentazione di progetto in CDRom)</li>
+	   <li>Savy R. et alii (2006). &ldquo;Specifiche per la trascrizione e   l&rsquo;etichettatura dei livelli segmentali in CLIPS&rdquo;, in CLIPS - Corpora e   Lessici di Italiano Parlato e Scritto (<a href="https://www.youtube.com/redirect?event=video_description&redir_token=JkmezlI0VB1h4q98d41KzR6mvKh8MTUwNjk1Mzc3M0AxNTA2ODY3Mzcz&q=http%3A%2F%2Fwww.clips.unina.it&v=uGs5k7PBYVo"  target="_blank">http://www.clips.unina.it</a>)</li>
+	   <li>Cresti E. & Moneglia M. (2005). C-ORAL-ROM - Integrated Reference Corpora for Spoken Romance Languages, Amsterdam/Philadelphia: John Benjamins (volume + dvd).</li>
+           </ul>
+	  </div>
+    </div>
+  </div>
+
+
+</div> 
+		     </div>
+	   
+	  </div>
+	    
+		    <!-- VIDEO 2 -->
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/C00gP5b8_wE" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion2">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Il raddoppiamento fonosintattico nell'italiano contemporaneo</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li>Canepari, L., 1986, Italiano standard e pronunce regionali, Padova: CLEUP</li>
+	  <li>Loporcaro, M., 1997, L’origine del raddoppiamento fonosintattico. Saggio   di fonologia diacronica romanza, Basel - Tübingen, Francke</li>
+	  <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di   sistemi e processi di variazione segmentali e sovrasegmentali,     Edizioni dell'Orso</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
+        Sitografia</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>“Enciclopedia dell’Italiano” Treccani - <a target="_blank" href="https://www.youtube.com/redirect?redir_token=xUmFC6wKK3lbBqApKx6-63AYqIZ8MTUwNjk1NDI0MEAxNTA2ODY3ODQw&amp;q=http%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fraddoppiamento-&amp;event=video_description&amp;v=C00gP5b8_wE">http://www.treccani.it/enciclopedia/r...</a> sintattico_(Enciclopedia-dell'Italiano)</li>
+	  <li>“La grammatica italiana” Treccani - <a target="_blank" href="https://www.youtube.com/redirect?redir_token=xUmFC6wKK3lbBqApKx6-63AYqIZ8MTUwNjk1NDI0MEAxNTA2ODY3ODQw&amp;q=http%3A%2F%2Fwww.treccani.it%2Fenciclopedia%2Fraddoppiamento-&amp;event=video_description&amp;v=C00gP5b8_wE">http://www.treccani.it/enciclopedia/r...</a> sintattico_(La-grammatica- italiana)</li>
+	   <li>“Raddoppiamento fonosintattico” Wikipedia - <a target="_blank" href="https://www.youtube.com/redirect?redir_token=xUmFC6wKK3lbBqApKx6-63AYqIZ8MTUwNjk1NDI0MEAxNTA2ODY3ODQw&amp;q=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FRaddoppiamento_fonosintattico&amp;event=video_description&amp;v=C00gP5b8_wE">https://it.wikipedia.org/wiki/Raddopp...</a></li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+		     </div>
+	   
+	  </div>
+	  
+	  
+	    <!-- VIDEO 3 -->
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/aL4UtBJNaZc" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion3">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion3" href="#collapse6">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li> Confini prosodici</li>
+	  <li> Intonazione dichiarativa</li>
+	  <li> Intonazione sospensiva</li>
+	  <li>Esercizi</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion3" href="#collapse7">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse7" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li> Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di sistemi e processi di variazione segmentali e sovrasegmentali, Alessandria: Dell'Orso</li>
+	  <li>Romano A., Miletto A., 2010, Argomenti scelti di Glottologia e Linguistica, Torino, Edizioni Omega</li>
+	  <li>Cresti E. (1994). "Information and intonational patterning". In Ph. Martin et alii (a cura di), Accent, intonation and modèles phonologiques, Toronto: Mélodie, 99-140.</li>
+          <li>Cresti E. (2005). "Enunciato e frase: teorie e verifiche empiriche". In M. Biffi, O. Calabrese & L. Salibra (a cura di), Italia linguistica: discorsi di scritto e di parlato, Scritti in onore di Giovanni Nencioni, Siena: Prolagon.</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion3" href="#collapse8">
+        Risposte agli esercizi</a>
+      </h4>
+    </div>
+    <div id="collapse8" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>esercizio 1: no RF da segnalare, 1 //, 2 /Da//</li>
+	   <li>esercizio 2: no RF da segnalare, 1 /, 2 /, 3 /Da//</li>
+	   <li>esercizio 3: finchÈ_NRF, /, /Dn//, /, //</li>
+	   <li>esercizio 4: //, /, /S//</li>
+	   <li>esercizio 5: ha_NRF, però_RF, /, /Dn//</li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+
+		     </div>
+	   
+	  </div>
+	      
+		    <!-- VIDEO 4 -->
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/2rrRnJdEfck" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion4">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse9">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse9" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Intonazione continuativa (parte 1): minore, maggiore e presentativa. </li>
+	   <li>Esercizi</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse10">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse10" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345. </li>
+	   <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di sistemi e processi di variazione segmentali e sovrasegmentali, Edizioni dell'Orso.</li> 
+	   <li>Romano A., Miletto A., 2010, Argomenti scelti di Glottologia e Linguistica, Torino, Edizioni Omega</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse11">
+        Risposte agli esercizi</a>
+      </h4>
+    </div>
+    <div id="collapse11" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>esercizio 1: /ct/, /ct/, /Da//;</li>
+	   <li>esercizio 2: /ct/, /Dn//;</li> 
+	   <li>esercizio 3: /ct/, /Dn//;</li>
+	   <li>esercizio 4: per adesso la tratteremo come una continuativa minore semplice /ct/, v&lt;ee&gt;erde, dom&lt;aa&gt;ani, adiós[spagnolo][cricchiato].</li>
+	 
+	  </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+		     </div>
+	   
+	  </div>
+	      
+		    <!-- VIDEO 5 -->
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/X0tz2-SjzFI" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion5">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse12">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse12" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Intonazione interrogativa</li>
+	  <li>domande parziali o domande k, ingentilite o reiterate</li>
+	  <li>domande polari o totali</li>
+	  <li>domande coda</li>
+	  <li>domande alternative</li>
+	  <li>Esercizi sulle interrogative</li>
+	  <li> Intonazione di eco</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse13">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse13" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li> Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di   sistemi e processi di variazione segmentali e sovrasegmentali, Edizioni   dell'Orso</li>
+	  <li>Romano A., Miletto A., 2010, Argomenti scelti di Glottologia e Linguistica, Torino, Edizioni Omega</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse14">
+        Risposte agli esercizi</a>
+      </h4>
+    </div>
+    <div id="collapse14" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>esercizio 1: a=dànno, b=&lt;RUMORE&gt;, c e d= un'inaugurazione in un unico segmento; 1= /Isn//, 2=/Isn//</li>
+	   <li>esercizio 2: 1=/Ik/, 2=/ct//, 3=/Da//, 4=/Ic/</li>
+	   <li>esercizio 3: 1=/Isn//, 2=&lt;inspirazione&gt;, 3=/Isn//</li>
+	   <li>esercizio 3: 1=/Isn//, 2=(pl)*, 3=/Isn//</li>
+	   <li>esercizio 4: 1=/Ia-//, 2=/-Ia//; a=&lt;RUMORE&gt;, b=&lt;pb&gt;</li>
+	   <li>esercizio 5: 1=/Ia-//, 2=/-Ia//</li>
+	   <li>esercizio 6: 1=/CP//, 2=/CP-Ik-//, 3=/-Ia-//, 4/-Ia// oppure usando le   parentesi graffe: 1=/CP//{, 2=/CP-Ia//{, 3=/Ia//, 4=/Ia//}/CP-Ia/}CP</li>
+	   <li>esercizio 7: 1=/Ik-//, 2=/-Ik//</li>
+	   <li>esercizio 8: 4=/Ik//, 1, 2 e 3 verranno etichettate correttamente nel prossimo tutorial, in cui si affronterà l'enumerativa.</li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+		     </div>
+	   
+	  </div>
+	  
+	  
+	  
+	  	  <!-- VIDEO 6 -->
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/6oGGAPCWpxI" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			 
+			  <div class="panel-group" id="accordion6">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion6" href="#collapse20">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse20" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Intonazione enumerativa aperta</li>
+	  <li>Intonazione enumerativa chiusa</li>
+	  <li>Esercizi  </li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion6" href="#collapse21">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse21" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di   sistemi e processi di variazione segmentali e sovrasegmentali, Edizioni   dell'Orso</li>
+	  <li> Romano A., Miletto A., 2010, Argomenti scelti di Glottologia e Linguistica, Torino, Edizioni Omega</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion6" href="#collapse22">
+        Glossario</a>
+      </h4>
+    </div>
+    <div id="collapse22" class="panel-collapse collapse">
+      <div class="panel-body">
+	    <a href="https://dizionario.internazionale.it/" target="_blank">Dal dizionario De Mauro</a>
+	   <ul>
+	  <li>TONIA: to|nì|a s.f. 1988; TS ling. profilo di intonazione di un enunciato</li>
+	   <li>SINDESI: sìn|de|si s.f.inv. 1960; TS gramm., ling. collegamento di unità sintattiche mediante congiunzioni</li>
+	   <li>ASINDETO: a|sìn|de|to s.m. 1549; TS gramm., ling. figura sintattica   caratterizzata da assenza di congiunzioni tra termini o frasi   strettamente correlate (per es. era immobile , pallido , distrutto)</li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion6" href="#collapse23">
+        Risposte agli esercizi</a>
+      </h4>
+    </div>
+    <div id="collapse23" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>esercizio 1: 1= in due segmenti &quot;Hashtag-Radio-Uno&quot; /ct/, &quot;è un   programma di tutti&quot; /Da/; 2=/EnC/; 3=/EnCp/; 4= {/CP/; 5= /Da/}/EnCf/</li>
+	   <li>esercizio 2: 1=/CT//, 2=/CP//, 3=/EnC//, 4=/EnC//, 5=/EnCf//, a=&lt;RUMORE&gt;</li>
+	   <li>esercizio 3: 1=/EnC/, 2=/EnC/, 3=/EnCf//; la riprenderemo nel prossimo video, in cui vedremo (tra le altre) l'esclamativa</li>
+	   <li>esercizio 4: 1=/CT//, 2=/ct/, 3=/ct/, 4=/Da//</li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+
+
+
+<p>&nbsp;</p>
+
+		     </div>
+	   
+	  </div>
+	  
+	    <!-- VIDEO 7 -->
+	  
+	      <div class="row distanza jumbotron">
+			<div class="col-sm-6">
+			<iframe width="100%" height="350px"  src="https://www.youtube.com/embed/HEPiV9XVvmo" frameborder="0" allowfullscreen></iframe>
+			</div>
+			 <div class="col-sm-6">
+			  <div class="panel-group" id="accordion7">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion7" href="#collapse15">
+        Argomenti trattati in questo video</a>
+      </h4>
+    </div>
+    <div id="collapse15" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Intonazione di parentesi</li>
+	  <li>Intonazione esclamativa</li>
+	  <li>Intonazione d'appendice</li>
+	  <li>Intonazione vocativa</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion7" href="#collapse16">
+        Bibliografia di riferimento</a>
+      </h4>
+    </div>
+    <div id="collapse16" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <ul>
+	  <li>Boersma, Paul (2001). Praat, a system for doing phonetics by computer. Glot International 5:9/10, 341-345</li>
+	  <li>Romano, A., 2008, Inventari sonori delle lingue: elementi descrittivi di   sistemi e processi di variazione segmentali e sovrasegmentali, Edizioni   dell'Orso</li>
+	  <li>Romano A., Miletto A., 2010, Argomenti scelti di Glottologia e Linguistica, Torino, Edizioni Omega</li>
+	  <li>Nespor, M., 1993, Le strutture del linguaggio. Fonologia, Il Mulino</li>
+	  </ul>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title glyphicon glyphicon-plus">
+        <a data-toggle="collapse" data-parent="#accordion7" href="#collapse17">
+        Risposte agli esercizi</a>
+      </h4>
+    </div>
+    <div id="collapse17" class="panel-collapse collapse">
+      <div class="panel-body">
+	   <ul>
+	  <li>esercizio 1: 1=/CT/ 2=/ct/ 3=/P/ 4=/Da//  </li>
+	   <li>esercizio 2: 1=/CP// 2=/Da//  </li>
+	   <li>esercizio 3: 1=/Da// 2=/App/{ 3=/EnC// 4=/EnC/ 5=/EnCf//  </li>
+	   <li>esercizio 4: 1=/Ik// 2=/Isn// 3=/Isn// 4=/Isn// 5=/Ik-Escl//</li>
+	   <li>esercizio 5: 1=/Isn// 2=/Escl//  </li>
+	   <li>esercizio 6: 1={/Da// 2=/ct// 3=}/Ia//</li>
+	   </ul>
+	  </div>
+    </div>
+  </div>
+</div> 
+		     </div>
+	   
+	  </div>
+
+	
+	<div class="well row margini" align="center">
+			 <div class="col-sm-4">
+			 <a target="_blank" href="http://www.lfsag.unito.it/" data-toggle="lfsag" title="www.lfsag.unito.it"><img alt="logo lfsag" height="130px" src="loghi/logo_lfsag.gif" class="img-rounded img_shadow"></a>
+			 </div>
+			 <div class="col-sm-4"> 
+			 <a target="_blank" href="http://www.lingue.unito.it/do/home.pl" data-toggle="lingue" title="www.lingue.unito.it"><img alt="logo lingue" height="130px" src="loghi/logo_lingue.png" class="img-rounded img_shadow_rounded"></a>
+			 </div>
+			 <div class="col-sm-4">
+			 <a target="_blank" href="https://www.unito.it/"  data-toggle="unito" title="www.unito.it"><img alt="logo unito" height="130px" src="loghi/logo_unito.jpg" class="img-rounded img_shadow"></a>
+			 </div>
+		</div>
+		<div align="center"> <a href="#myModal" data-toggle="modal"> <img class="logo_footer" src="loghi/logo_prosopraat.jpg"> </a> </div>
+	
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-sm">
+			
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">x</button>
+					<h4 class="modal-title">Informazioni</h4>
+				  </div>
+				  <div class="modal-body">
+					<p>Progetto realizzato da <span>Elisa Di Nuovo</span></p><br>
+					<p class="email_modal">Info: <a href="mailto:elisa.dinuovo@gmail.com">elisa.dinuovo@gmail.com</a></p>
+				  </div>
+				
+				</div>
+			
+			  </div>
+			</div>
+			
+			<!-- Fine Modal -->
+	  </div>
+	  
+</body>
+</html>
+

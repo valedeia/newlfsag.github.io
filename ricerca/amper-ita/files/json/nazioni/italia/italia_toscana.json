@@ -1,0 +1,40 @@
+{
+  "descrizione": "In quest'area le località esplorate non presentano una generale convergenza di modelli.<br>Le inchieste sono state condotte in tempi e modalità relativamente diversi.<br>La regione interessata è la Toscana.<br>",
+  "sottoaree": {
+    "07b": {
+      "label": "toscano pisano"
+    }
+  },
+  "cities":{
+    "pisa": {
+      "label": "Pisa",
+      "active": true,
+      "sottoarea": "07b",
+      "locutori": {
+        "07b8": {
+          "varietà": "",
+          "gruppofrase": "gruppo6",
+          "descrizione": "Nelle proposizioni di questa località si è potuto definire un questionario di base col ricorso a vocali di tipo [a] e consonanti quasi sempre ostruenti sorde.<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un troncamento del CTM (contorno terminale di modalità) che perde la parte finale (visibile invece nei casi di parossitono e proparossitono).<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La maggiore lunghezza della frase induce il parlante a segmentarla (con occasionale isolamento del tema) e la realizzazione di due o tre prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        }
+      }
+    },
+    "prato": {
+      "label": "Prato",
+      "active": true,
+      "sottoarea": "070",
+      "locutori": {
+        "0707": {
+          "varietà": "",
+          "gruppofrase": "gruppo6",
+          "descrizione": "Nelle proposizioni di questa località si è potuto definire un questionario di base col ricorso a vocali di tipo [a] e consonanti quasi sempre ostruenti sorde.<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un segmento finale di durata prolungata sul quale si distende il CTM (contorno terminale di modalità) più tipico.<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La maggiore lunghezza della frase induce il parlante a segmentarla e a realizzare due prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        }
+
+
+      }
+    }
+  }
+}

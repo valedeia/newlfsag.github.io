@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=El Messiri">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- Questo tag permette una ottima visualizzazione da tutti gli schermi , pc, tablet, smartphone-->
+		<link rel="stylesheet" href="css/style.css"> 
+		<!-- tag che consente di unire lo stile di un file esterno (stylesheet in questo caso, rel specifica la relazione tra i due file) a un documento html-->
+		<title>Pro(so)Praat</title>
+		<meta name="author" content="Elisa Di Nuovo">
+		<meta name="generator" content="Macromedia Dreamweaver 8">
+		<meta name="description" content="Progetto Pro(so)Praat per la tesi di Elisa Di Nuovo Relatore Antonio Romano">
+		
+		<script type="text/javascript">
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+		
+		$(document).ready(function(){
+			$('[data-toggle="lfsag"]').tooltip();   
+			  $('[data-toggle="lingue"]').tooltip();   
+				$('[data-toggle="unito"]').tooltip();   
+				  $('[data-toggle="praat"]').tooltip();
+				    $('[data-toggle="popover"]').popover();   
+		});
+		</script>
+</head>
+
+<body>
+
+ <button onClick="$('html,body').animate({scrollTop:0},'slow');return false;" id="myBtn" title="Go to top" class="myBtn btn btn-info"> <i class="glyphicon glyphicon-chevron-up"></i> Torna su</button>
+	
+	<div class="container">
+	
+	<nav class="navbar navbar-default  navbar-fixed-top">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		  <a class="navbar-brand" id="top" href="#" data-placement="bottom" data-toggle="popover" title="Realizzato da Elisa Di Nuovo" data-content="Info: elisa.dinuovo@gmail.com"><img src="loghi/logo_prosopraat.jpg" class="logo"></a>
+		</div>		
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav ">
+		  <li class="tasti_menu"><a href="index.html">Home</a></li>
+		  <li class="active tasti_menu"><a href="#">Annotazione ortografica tramite Praat</a></li>
+		  <li class="tasti_menu"><a href="progetto_prosopraat.html">Progetto Pro(so)Praat</a></li>
+		</ul>
+		</div>
+	  </div>
+	</nav>
+	 
+	 <div class="jumbotron distanza">
+	  
+	
+	 <p> L'annotazione del testo conosce diversi gradi di complessità in relazione, come si è detto, al tipo di corpus e agli scopi che si prefigge. In linea teorica, un corpus potrebbe essere annotato a tutti i livelli possibili, tuttavia, sono molto più frequenti corpora annotati solo per alcuni aspetti. </p> <p> <b>Annotazione</b> = arricchimento della trascrizione ortografica mediante dettagli relativi alla produzione, alcuni simboli di categorizzazione basilare degli eventi fonici e pochi commenti extratestuli riferiti a unità linguistiche <br> <b>Etichettatura</b> = (in inglese <i>mark-up</i>) operazioni volte a definire, identificare e classificare le unità linguistiche costitutive di un testo ai vari livelli (fonetico, fonologico, prosodico, lessicale-morfolofico, morfo-sintattico, coreferenziale, di unità di discorso, di funzioni comunicative, ecc...). </p> <p> In questa suddivisione, l'annotazione è lo stadio che presenta <b id="àncora"></b>il più basso grado di complessità. Le due operazione possono coesistere entro lo stesso testo, ma di norma rispondono a  principi diversi e si prefiggono obiettivi diversi. </p> <b>Requisiti minimi per una trascrizione annotata</b>:
+		  <ul>
+			<li> Suddivisione del testo in stringhe, identificabili univocamente, che corrispondano a produzioni unitarie di un singolo parlante;
+			<li> Informazioni sulla sequenza e sovrapposizione di produzioni di parlanti diversi;
+			<li> Trascrizione in forma univoca di tutti gli elementi lessicali della produzione, compreso numeri, sequenze di lettere (come acronimi e sigle), interiezioni, abbreviazioni, ecc;
+			<li> Tracrizione degl elementi verbali non-lessicali che comprendono tutti i tipi di disfluenze e speech repairs (errori di pronuncia, frammenti di parole, troncamenti, articolazioni di esitazione) nonché le pause (brevi, lunghe, con reset) e le sequenze intellegibili;
+			<li> Annotazione dei fenomeni vocali non verbali prodotti dai parlanti (inspirazioni, risate ecc.)
+			<li> Annotazioni di rumori presenti nel segnale, prodotti dal parlante o dall'ambiente.</li>
+		  </ul> 
+		<p> Ci occuperemo di tutti questi requisiti minimi nel primo video tutorial del <a href="progetto_prosopraat.html">progetto Pro(so)Praat</a> usando, per l'appunto, il software PRAAT. </p> <p> PRAAT è un potentissimo strumento per l’analisi, la sintesi, la visualizzazione e la manipolazione del segnale. <br>È un software gratuito creato dai linguisti olandesi Paul Boersma e David Weenink ed è scaricabile <a target="_blank" href="http://www.fon.hum.uva.nl/praat/" data-toggle="praat" title="www.fon.hum.uva.nl/praat">in questa pagina</a>. <br>È ottimo per la segmentazione e l'etichettatura in quanto permette di farlo su più livelli; inoltre, permette la creazione di script di lavoro per automatizzare le procedure di analisi, di estrarre statistiche, grafici e tanto altro.</p>
+		<p>Ci serviremo di questo software per effettuare l'annotazione ortografica del parlato e, in seguito, per quella prosodica.</p>
+	  </div>
+		
+	 <div class="well row margini" align="center">
+			 <div class="col-sm-4">
+			 <a target="_blank" href="http://www.lfsag.unito.it/" data-toggle="lfsag" title="www.lfsag.unito.it"><img alt="logo lfsag" height="130px" src="loghi/logo_lfsag.gif" class="img-rounded img_shadow"></a>
+			 </div>
+			 <div class="col-sm-4"> 
+			 <a target="_blank" href="http://www.lingue.unito.it/do/home.pl" data-toggle="lingue" title="www.lingue.unito.it"><img alt="logo lingue" height="130px" src="loghi/logo_lingue.png" class="img-rounded img_shadow_rounded"></a>
+			 </div>
+			 <div class="col-sm-4">
+			 <a target="_blank" href="https://www.unito.it/"  data-toggle="unito" title="www.unito.it"><img alt="logo unito" height="130px" src="loghi/logo_unito.jpg" class="img-rounded img_shadow"></a>
+			 </div>
+		</div>
+		<div align="center"> <a href="#myModal" data-toggle="modal"> <img class="logo_footer" src="loghi/logo_prosopraat.jpg"> </a> </div>
+	
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-sm">
+			
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">x</button>
+					<h4 class="modal-title">Informazioni</h4>
+				  </div>
+				  <div class="modal-body">
+					<p>Progetto realizzato da <span>Elisa Di Nuovo</span></p><br>
+					<p class="email_modal">Info: <a href="mailto:elisa.dinuovo@gmail.com">elisa.dinuovo@gmail.com</a></p>
+				  </div>
+				
+				</div>
+			
+			  </div>
+			</div>
+			
+			<!-- Fine Modal -->
+	  </div>
+	  
+</body>
+</html>
+

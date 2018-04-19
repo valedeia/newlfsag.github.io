@@ -1,0 +1,100 @@
+.logo{
+    top: 0px;
+    margin-top: -19px;
+    margin-left: -20px;
+    height: 55px;
+}
+
+.tasti_menu{
+font-size:18px;
+font-weight:500;
+}
+
+.distanza{
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+@media screen and (max-width: 785px) {
+ .distanza{
+	margin-top:30spx;
+	margin-left:0px;
+	margin-right:0px;
+ } 
+}
+
+p{
+	font-size: 16px !important;
+	text-align:justify;
+}
+
+span{
+	color:#9900FF;
+	font-family: 'El Messiri', serif;
+	font-size:16px;
+	font-style:oblique;
+}
+
+.margini{
+margin:0px;
+}
+
+body{
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:20px;
+  margin-top:20px; 
+  font-family: 'El Messiri', serif; 
+}
+
+.myBtn{
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 5px;
+  z-index: 99;
+  border: none;
+  outline: none; 
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.myBtn:hover {
+  background-color: #555;
+}
+
+.img_shadow{
+	 -webkit-box-shadow: 4px 4px 6px -6px blue;
+     -moz-box-shadow: 4px 4px 6px -6px blue;
+      box-shadow: 4px 4px 6px -6px blue;
+	  max-width: 100%;
+}
+
+.img_shadow:hover{
+	box-shadow:none;
+}
+
+.img_shadow_rounded{
+     -webkit-box-shadow: 4px 4px 6px -6px blue;
+     -moz-box-shadow: 4px 4px 6px -6px blue;
+      box-shadow: 4px 4px 6px -6px blue;
+	  border-radius: 100%;
+	  max-width: 100%;
+}
+
+.img_shadow_rounded:hover{
+	box-shadow:none;
+}
+
+.logo_footer{
+	width: 275px;
+	padding-top: 10px;
+}
+
+.email_modal{
+	text-align:right !important;
+}
+
+

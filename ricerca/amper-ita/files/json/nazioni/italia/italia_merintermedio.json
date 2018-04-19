@@ -1,0 +1,24 @@
+{
+  "descrizione": "<br>Area Meridionale Intermedia<br><br>In quest'area le località esplorate non presentano una generale convergenza di modelli.<br>Le inchieste sono state condotte in tempi e modalità relativamente diversi.<br>Le regioni interessate sono la Campania, il Molise, la Basilicata, parte del Lazio meridionale, delle Marche meridionali, dell’Abruzzo orientale, della Puglia e della Calabria settentrionale.<br>",
+  "sottoaree": {
+    "06b": {
+      "label": "pugliese"
+    }
+  },
+  "cities":{
+    "taranto": {
+      "label": "Taranto",
+      "active": true,
+      "sottoarea": "06b",
+      "locutori": {
+        "06b6": {
+          "varietà": "",
+          "gruppofrase": "gruppo2",
+          "descrizione": "La presenza di elementi lessicali o morfologici inizianti per vocale causa fenomeni di contatto (in genere tra verbo e articolo di SN2) risolti con una fusione (separata virtualmente solo ai fini del mantenimento di un numero di sillabe che la renda comparabile con le altre).<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un troncamento del CTM (contorno terminale di modalità) che perde la parte finale (visibile invece nei casi di parossitono e proparossitono).<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La maggiore lunghezza della frase induce il parlante a segmentarla e la realizzazione di una o due prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        }
+      }
+    }
+  }
+}

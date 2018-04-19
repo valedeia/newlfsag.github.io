@@ -1,0 +1,65 @@
+{
+  "label": "Italia",
+  "aree": {
+    "centrale": {
+      "active": true,
+      "label": "Area: centrale"
+    },
+    "galloitalica": {
+      "active": true,
+      "label": "Area: gallo-italica"
+    },
+    "toscana": {
+      "active": true,
+      "label": "Area: toscana"
+    },
+    "tedesca": {
+      "active": false,
+      "label": "Area: tedesca"
+	},
+    "veneta": {
+      "active": false,
+      "label": "Area: veneta"
+    },
+    "francoprovenzale": {
+      "active": false,
+      "label": "Area: franco-provenzale"
+    },
+	"provenzale": {
+      "active": false,
+      "label": "Area: provenzale"
+    },
+    "sardocamp": {
+      "active": false,
+      "label": "Area: campidanese e logudorese"
+    },
+    "sassarese": {
+      "active": false,
+      "label": "Area: sassarese e gallurese"
+	},
+	"slovena": {
+      "active": false,
+      "label": "Area: slovena"
+	},
+	"catalana": {
+      "active": false,
+      "label": "Area: catalana"
+	},
+    "ladina": {
+      "active": false,
+      "label": "Area: ladina"
+    },
+    "friulana": {
+      "active": false,
+      "label": "Area: friulana"	  
+    },
+    "merintermedio": {
+      "active": true,
+      "label": "Area: meridionale intermedia"
+    },
+    "merestremo": {
+      "active": true,
+      "label": "Area: meridionale estrema"
+    }
+  }
+}

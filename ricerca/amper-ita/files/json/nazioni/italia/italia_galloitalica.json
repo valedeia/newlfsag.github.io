@@ -1,0 +1,40 @@
+{
+  "descrizione": "In quest'area le località esplorate presentano una generale convergenza di modelli.<br>Le inchieste sono state condotte in tempi e modalità relativamente diversi.<br>Le regioni interessate sono la Liguria, il Piemonte (esclusa l’area (franco)provenzale), la Lombardia, l’Emilia-Romagna, parte del Trentino-Alto Adige e del Veneto occidentale.<br>",
+  "sottoaree": {
+    "07b": {
+      "label": "genovese"
+    }
+  },
+  "cities":{
+    "genova": {
+      "label": "Genova",
+      "active": true,
+      "sottoarea": "06q",
+      "locutori": {
+        "06q8": {
+          "varietà": "",
+          "gruppofrase": "gruppo4",
+          "descrizione": "La presenza di elementi lessicali o morfologici inizianti per vocale causa fenomeni di contatto (in genere tra verbo e articolo di SN2) risolti con una fusione (separata virtualmente solo ai fini del mantenimento di un numero di sillabe che la renda comparabile con le altre).<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un troncamento del CTM (contorno terminale di modalità) che perde la parte finale (visibile invece nei casi di parossitono e proparossitono).<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e una prominenza principale.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La maggiore lunghezza della frase induce il parlante a segmentarla con occasionale isolamento del tema e la realizzazione di una o due prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        }
+      }
+    },
+    "trento": {
+      "label": "Trento",
+      "active": true,
+      "sottoarea": "06x",
+      "locutori": {
+        "06x8": {
+          "varietà": "",
+          "gruppofrase": "gruppo5",
+          "descrizione": "Nelle proposizioni di questa località si è potuto definire un questionario di base col ricorso a vocali di tipo [a] e consonanti quasi sempre ostruenti sorde.<br>La presenza di elementi lessicali o morfologici inizianti per vocale causa fenomeni di contatto (in genere tra verbo e articolo di SN2) risolti con una fusione (separata virtualmente solo ai fini del mantenimento di un numero di sillabe che la renda comparabile con le altre).<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un troncamento del CTM (contorno terminale di modalità) che perde la parte finale (visibile invece nei casi di parossitono e proparossitono).<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali.<br>",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La (maggiore) lunghezza della frase induce il parlante a segmentarla con occasionale isolamento del tema e la realizzazione di una o due prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"		
+		}
+
+
+      }
+    }
+  }
+}

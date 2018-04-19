@@ -1,0 +1,37 @@
+<!doctype html> <html> <head> <meta charset="utf-8"><base href="/amper-ita/"> <title>AMPER - Atlas Multimédia Prosodique de l'Espace Roman</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"><!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.6ba222ab.css"> <link rel="stylesheet" href="styles/main.1b9f19c1.css"> <link rel="stylesheet" href="fancybox/jquery.fancybox.css"> <link rel="stylesheet" href="fonts/titillium/stylesheet.css"> </head> <body ng-app="lfsagAgApp"><!--[if lte IE 11]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--><!-- FACEBOOK --> <div id="fb-root"></div> <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script><!-- END FACEBOOK --><!-- Add your site or application content here --> <div class="header" ng-controller="MainCtrl"><!--  <hgroup>
+        <div class="row">
+          <div class="col-md-12">
+            <div style="text-align: center;" class="logo">
+              <img src="images/LogoAmperTransp.png"/>
+              <h2>Atlas Multimédia Prosodique de l'Espace Roman</h2>
+            </div>
+          </div>
+        </div>
+      </hgroup> --> <div class="toolbar"> <div class="col-lg-3"><!--<div class="input-group">
+          <input type="text" class="form-control" placeholder="Cerca...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Vai!</button>
+            </span>
+          </div><!-- /input-group --> </div><!-- /.col-lg-6 --> </div><!-- /.toolbar --> <div class="navbar navbar-amper" role="navigation"> <div class="logo"><!--<img src="images/LogoAmperTransp.png"/>   --> <img src="images/amper_ita.png"> </div> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><!-- <a class="navbar-brand" href="/">lfsagAg</a> --> </div> <div class="collapse navbar-collapse" id="js-navbar-collapse"> <ul class="nav navbar-nav"><!-- Home  --> <li ng-class="getClass('/')"><a href="#/">Home</a></li> <li ng-class="getClass('/guida')"><a href="#/guida">Guida</a></li><!--<li ng-class="getClass('/carte_old')"><a href="#/carte_old">Carte old</a></li>
+              <li ng-class="getClass('/carte')"><a href="#/carte">Carte</a></li>  --> <li ng-class="getClass('/cartina/italia')"><a href="#/map/italia">Italia</a></li> <li ng-class="getClass('/partners')"><a href="#/partners">Partners</a></li> <li ng-class="getClass('/bibliografia')"><a href="#/bibliografia">Bibliografia</a></li> <li ng-class="getClass('/contatti')"><a href="#/contatti">Contatti</a></li> </ul> </div> </div> </div> <div ncy-breadcrumb class="breadcrumb-amper"></div> </div> <div class="container mainview"> <div ui-view></div> </div> <div class="footer"> <div class="container"><!--<p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <div style="display: inline-block"><a style="display: inline-flex;" target="_blank" href="https://www.youtube.com/channel/UCV3Hbhexkpju8hmaLQmsIuQ">
+          <img style="height: 80px;" src="images/YouTube-logo-full_color.png" />
+        </a></div>
+        <div class="fb-page" data-href="https://www.facebook.com/Laboratorio-di-Fonetica-Sperimentale-Arturo-Genre-504322583065501/?fref=ts" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
+      </div>    --> </div><!-- Google Analytics: change UA-XXXXX-X to be your site's ID --><!--<script>
+      !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+      (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+      r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+      }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+   </script>   --> <script src="scripts/vendor.e57990ce.js"></script> <script src="scripts/scripts.d63c8419.js"></script> <script src="fancybox/jquery.fancybox.js"></script> </div></body> </html>
