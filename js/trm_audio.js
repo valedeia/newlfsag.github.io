@@ -3,54 +3,6 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
-"name": "  Camerun Bafang",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamilieke_fefe_camerun_f_bafang.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.18714,5.16014]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "  Camerun Balessing",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nggiemboon_f_balessing.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.23762,5.50512]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "  Camerun Bameka",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nguemba_f_bameka.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.55,5.63333]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "  Filippine Manila",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_tagalog_philippines_m_manila.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [120.98422,14.59951]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
 "name": "Afro-Asiatica Amharico Etiopia Konso",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_amharic_ethiopia_m_konso.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mauro Tosco, Ongaye Oda, Antonio Romano"
 },
@@ -285,6 +237,42 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [8.98146,33.71716]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Bamileke  Camerun Bafang",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamilieke_fefe_camerun_f_bafang.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.18714,5.16014]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Bamileke  Camerun Balessing",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nggiemboon_f_balessing.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.23762,5.50512]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Bamileke  Camerun Bameka",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nguemba_f_bameka.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.55,5.63333]
 }
 },
 
@@ -1095,12 +1083,96 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Friulano  Italia Alesso (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_alesso.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.05257,46.3146]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Friulano  Italia Campomolle (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_campomolle.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.04052,45.84636]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Friulano  Italia Cividale del Friuli (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_cividale_del_friuli.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.43313,46.08014]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Friulano  Italia Gradisca di Sedegliano (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_gradisca di sedegliano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [12.96445,46.0017]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Friulano  Italia Grions (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_grions.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.30811,46.10288]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Friulano  Italia Ragogna (UD)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_ragogna.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [12.99676,46.18963]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Galiziano  Spagna Vigo",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_galician_spain_m_vigo.mp3' controls='controls'></audio>O vento do norte e mailo sol<br><br>O vento do norte e mailo sol porfiaban sobre cal deles era o máis forte, cando cadrou de pasar un viaxeiro envolto nunha ampla capa. Conviñeron en que o que antes conseguise facerlle quita-la capa ó viaxeiro sería considerado o máis forte. O vento do norte soprou con gran furia, e canto máis sopraba máis se envolvía o viaxeiro na súa capa; finalmente o vento do norte abandonou o seu empeño. Entón o sol quentou con forza e inmediatamente o viaxeiro sacou a capa. E daquela o vento do norte tivo que recoñoce-la superioridade do sol.<br><br>Gustouche o conto? Queres que cho conte outra vez?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
 "coordinates": [-8.72073,42.2406]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Gallo-italico  Italia Castelnuovo di Sotto (RE)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_re_f_castelnuovo_di_sotto.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.56226,44.81308]
 }
 },
 
@@ -1401,6 +1473,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [76.03919,31.0913]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Inglese  Sud Africa Città del Capo",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_south_africa_f_citta_del_capo.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [18.42406,-33.92487]
 }
 },
 
@@ -2175,6 +2259,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Calabrese Italia Delianuova Paracorìo (RC)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_rc_f_delianuova_paracorìo.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.91919,38.23357]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Calabrese Italia Gioia Tauro (RC)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_rc_f_gioia_tauro.mp3' controls='controls'></audio>A tramuntana e u suli<br><br>Nu jornu u ventu i tramuntana e u suli si sciarriaru su ccu è u cchiù fforti quandu vìttiru rrivari nu cristianu cu nnu mantedu. Allura decidiru ca u cchiù fforti era chidu di dui chi riusciva mu nci caccia u mantedu. U ventu cuminciau mu sciuscia cu ttutta a so forza ma cchiù sciusciava e cchiù u cristianu si stringiva u mantedu, finu a cquandu u ventu s’arrendìu. U suli, poi, cuminciau u splendi e ssùbbitu u caddu obbligau l’omu mu si caccia u mantedu. Così u ventu eppi ricanusciri ca u suli era cchiù fforti d’iddu.<br><br>Ti piacìu a storiella? Voi mu ta cuntu n'atra vota?<hr>"
 },
@@ -2199,6 +2295,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Calabrese Italia Limbadi Motta (VV)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_vv_f_limbadi_motta.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.9776,38.57119]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Calabrese Italia Melia di Scilla (RC)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_rc_f_melia_di_scilla.mp3' controls='controls'></audio>A tramuntana e u suli<br><br>Nu jornu u ventu i tramontana e u suli si sciarriarunu su cu esti u chiù forti quandu vittiru ruari nu passanti cu nu manteddu. Allura decidiru chi u chiù forti era chiddu ri dui chi rinisciva mi nci caccia u manteddu. U ventu cuminciau mi sciuscia cu tutta a so fostra ma chiù sciusciava e chiù u passanti si stringiva u manteddu fin’a quandu u ventu si rendiu. U suli, apoi, cuminciau mi splendi e subbitu u caddu obblicau all’omu mi si caccia u manteddu. Cusì u ventu aippi ricanusciri chi u suli era chiù forti r’iddu.<br><br>Ti piaciu a storiella? Voi mi ta cuntu n'atra vota?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
@@ -2217,6 +2325,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [15.64729,38.1113]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Calabrese Italia Sant'Eufemia Aspromonte (RC)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_rc_m_sant_eufemia_aspromonte.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.85384,38.26471]
 }
 },
 
@@ -2277,6 +2397,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [18.24503,39.91446]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Salentino Italia Andrano (LE)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_le_f_andrano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [18.38197,39.98689]
 }
 },
 
@@ -2415,6 +2547,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Salentino Italia Galatina (LE)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_le_m3_galatina.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [18.17248,40.17582]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Salentino Italia Gallipoli (LE)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_le_m1_gallipoli.mp3' controls='controls'></audio><br><br>Nu ggiurnu a thramuntana e llu sole sta se vattiene a cinca te tutti toi era u cchiù fforte. Quandu vittera rrivare nu cristianu tuttu ncapputatu inthra nna giacca, se ncurdara ca lu cchiù forte te tutti toi era essere quiddhu ca se fitava cu nde la lleva la giacca a ddhu cristianu. A thramuntana zzaccau pe pprima cu ttira cu ttutte le calime ca tanìa ma cchiù ttirava e chiù ddhu cristianu se ngucciava cu lla ggiacca. Lu sole allora ssìu picca picca e tantu bastau cu face schiattare te cautu ddhu cristianu ca se llavau te pressa la ggiacca. Cusì a tramuntana pardìu a scommessa.<br><br>T’a piaciutu lu cuntu? Oi cu te lu cuntu ntorna?<hr>Dati a cura di Claudio Russo, Antonio Romano"
 },
@@ -2535,6 +2679,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Salentino Italia Otranto (LE)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_le_m_otranto.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [18.49117,40.1439]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Salentino Italia Poggiardo (LE)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_le_f_poggiardo.mp3' controls='controls'></audio>La t.r.amuntana e llu sule<br><br>Nu ggiurnu la t.r.amuntana e llu sule sta' se lliticàvine pe ccì te tutti e ddoi era u cchiù fforte. Quannu videra nu cristianu ca sta' rrivava tuttu ccucciatu ’nt.r.a nnu cappottu, se ncurdara ca lu cchiù fforte te tutti e ddoi era ddèssere quid.d..u ca riuscìa cu lli llea u cappottu a 'ddu cristianu. La t.r.amuntana ncignau pe pprima cu ttira cu ttutta la forza ca tinìa ma cchiui tirava e cchiui 'd.d.u cristianu se ccucciava ’nt.r.a llu cappottu finu a cquannu la t.r.amuntana nu llu lassau s.cire. Lu sule allora ssìu picca picca e ttantu bbastau cu ffazza schiattare te cautu 'd.d.u cristianu ca se lliau fus.cennu lu cappottu. Cussì fose ca la t.r.amuntana perze la scommessa.<br><br>T'è ppiaciutu stu cuntu? Oi cu tte lu cuntu ntorna?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
@@ -2553,6 +2709,54 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [17.84028,40.41853]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Salentino Italia San Pietro Vernotico (BR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_br_f_sanpietro_vernotico.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [17.99673,40.48751]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Salentino Italia San Pietro Vernotico (BR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_br_m1_san_pietro_vernotico.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [17.99473,40.48551]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Salentino Italia San Pietro Vernotico (BR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_br_m2_san_pietro_vernotico.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [17.99273,40.48251]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Salentino Italia San Pietro Vernotico (BR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_br_m3_san_pietro_vernotico.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [17.99073,40.48151]
 }
 },
 
@@ -2655,6 +2859,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Siciliano Italia Acibonaccorsi (CT)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ct_m_acibonaccorsi_viagrande.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.10954,37.59552]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Siciliano Italia Acireale (CT)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ct_f_acireale.mp3' controls='controls'></audio>A tramuntana e u suli<br><br>Gnornu u ventu di tramuntana e u suli parràvunu subbra cu fussi u cchiù ffotti, quannu vìderu arrivari ‘n gristianu ca ci aveva ’n goddu nu manteddu. Allura si mìsiru daccoddu ca u primu de' rui ca ci avissa arrinisciutu a ffari tògghiri u manteddu d'in goddu o cristianu avissa statu vistu comu u cchiù ffotti de' rui. U ventu si misi a sciusciari cu ttutta a fozza c’aveva, ma cchiù sciusciava cchiu assai u cristianu s'anturciuniava ndo so manteddu. Tantu ca a fini u pòvuru ventu lassau pèddiri. Allura u suli accuminciau a lluccicari cu ttuttu u so caluri e sùbbitu sùbbitu u cristianu si luau u manteddu. Accussì u ventu app’a rricanùsciri ca u suli era cchiù ffotti di iddu.<br><br>Ti piacìu a passata? Voi ca ta cuntu n'atra vota?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
@@ -2685,6 +2901,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [12.96658,37.95407]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Siciliano Italia Bagheria (PA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_pa_f_bagheria.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.51237,38.07892]
 }
 },
 
@@ -2793,6 +3021,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [14.24035,37.07415]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Siciliano Italia Grammichele (CT)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ct_m_grammichele.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [14.6364,37.21476]
 }
 },
 
@@ -3003,6 +3243,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Meridionale estremo Siciliano Italia Rosolini (SR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_sr_f_rosolini.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [14.95381,36.82]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Meridionale estremo Siciliano Italia San Fratello (ME)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_me_f_san_fratello.mp3' controls='controls'></audio><br><br>Un giuòrn u vant d tramuntèauna e u sàu discputèvu chi di duòi fus u ciù fàrt, quèn vìtu arvèr un crisctiièan cu mantièau dncad. Agliàuri d.c.rìan cu ciù fàrt fusa sctèt càu di duòi ch fus arnscì a fègh dver u mantièau. P prima u vant acumunzèa a sciuscèr cun tuta la sàua fàrza, ma ciù sciuscièava e ciù u crisctiièan s sunzàia o mantièau, finachè u vant n sa frmèa. Nvec u sàu acumunzèa a scplanr e subt u calàur ubliièa u crisctiièan a dves u mantièau. Cuscì la tramuntèauna fu cusòta a rcanuòscr cu sàu era ciù fart d ròda.<br><br>T plajò la sctuòria? Uòi ch t la racàunt d nuòv?<hr>"
 },
@@ -3029,6 +3281,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "properties": {
 "name": "Meridionale estremo Siciliano Italia Trapani",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_tp_m.mp3' controls='controls'></audio><br><br>Un jorno u vento di tramontana e u sule discutiano su cue ri rue fusse u chiu forte, quanno vittiro arrivare  u passante cu supra u manteddo. Allura ricisiro chi u chiu forte fusse stato chiddro ri rue c’avisse arrinisciuto a farici livare u manteddo. U vento pi prima accuminciao a soffiare cu tutta a forza sua, ma chiu soffiava e chiu u passante si stringia u manteddo, accussì che a fine u vento un si rette pi vinto. U sule a sa vota accuminciao a quagghiare e subito u calure obbligao l’omo a livarise u manteddo. Accussì a tramontana arriscanuscio chi u sule era chiu forte d’ idda.<br><br>Ti piacio sta storiella? Voe chi ti ni rico n’autra?<hr>"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [12.5372,38.01762]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale estremo Siciliano Italia Trapani",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_tp_f_trapani.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -3069,6 +3333,210 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [15.06743,37.71038]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio  Italia Amandola (FM)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_fm_f_amandola.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.3556,42.98001]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio  Italia Bellante (TE)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_te_f_bellante.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.8082,42.7412]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio  Italia Montegranaro (FM)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_fm_m_montegranaro.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.62853,43.23039]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio  Italia Rocchetta sul Volturno (IS)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_is_m_isernia_rocchetta_sul_volturno.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [14.0711,41.62887]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Aquilano Italia Genzano (AQ)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_aq_f_genzano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.32336,42.35254]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Aquilano Italia L'Aquila",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_aq_f.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [13.39951,42.34985]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Avellinese Italia Sturno (AV)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_av_f_sturno.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.10946,41.02178]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Barese Italia Bisceglie (BA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ba_m_bisceglie.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [16.50207,41.24273]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Barese Italia Bitonto (BA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ba_m_bitonto.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [16.69106,41.10783]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Barese Italia Sant'Eramo in Colle (BA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ba_m_sant_eramo_in_colle.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [16.75286,40.79181]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Foggiano Italia Manfredonia (FG)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_fg_f_manfredonia.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.91651,41.63073]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Foggiano Italia Margherita di Savoia (FG)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_fg_f_margherita_di_savoia.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [16.16986,41.35231]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Foggiano Italia San Severo (FG)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_fg_f_san_severo.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.37952,41.68542]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Martinese Italia Martina Franca (TA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ta_m4_martina_franca.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [17.33926,40.70287]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Napoletano Italia Napoli",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_na_f_napoli.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [14.26812,40.85177]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Salernitano Italia Siano (SA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_sa_f_siano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [14.68794,40.80198]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Meridionale intermedio Salernitano Italia Stella Cilento (SA)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_sa_f_stella_cilento.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [15.09165,40.22928]
 }
 },
 
@@ -3369,6 +3837,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [6.79277,52.25741]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Piemontese  Italia Pamparato (CN)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_cn_m_pamparato.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [7.91024,44.27449]
 }
 },
 
@@ -3753,6 +4233,42 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [49.86709,40.40926]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Sardo  Italia Erula (SS)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ss_f_erula.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [8.94339,40.78972]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Sardo  Italia Sant'Antioco (CI)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ci_f_santantioco.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [8.41842,39.03739]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Sardo  Italia Siamaggiore (OR)",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_or_f_siamaggiore.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [8.63916,39.94943]
 }
 },
 
@@ -4473,6 +4989,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [-66.91361,10.49059]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Tagalog  Filippine Manila",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_tagalog_philippines_m_manila.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [120.98422,14.59951]
 }
 },
 
