@@ -243,48 +243,24 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
-"name": "Bamileke  Camerun Bafang",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamilieke_fefe_camerun_f_bafang.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.18714,5.16014]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "Bamileke  Camerun Balessing",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nggiemboon_f_balessing.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.23762,5.50512]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "Bamileke  Camerun Bameka",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nguemba_f_bameka.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [10.55,5.63333]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
 "name": "Bamileke Bangou Camerun Bangou",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamileke_bangou_cameroon_f_bangou.mp3' controls='controls'></audio>Fefè fi pou nèp <br><br><br><br>Fefè fi pou nèp la me tahkchue, bah woloh ne pou me kwak guèh yo me nteu tèh, tsieup ga’ah yihse mey mah kwihse ney la me hoh mbihi poua Wouop wouoh chue tchieu guèh me yi ya’aha gheuh tèh yo tih kwinhsey ney lè me yo me nteu tèh. Ndahalè fefè fi ze ntoh mboh tchieuh pou nzok yi tetang a’waha, mbah yo me nè tchieuh tetang’ha è mbah ga’aha yihse tcheou me gouop kwihsey sihi ney lè, ndahalè fefè fi hieu keka mbaha mboumey si. Nèp ne ntoh yi ndan’ha mbieu tchieuh tèh, ngui dih keup ne moh tsieup, zeuh leup ga’aha yihse, yo tih kwihsey ney. Fefè fi ne mbip ndan’aha guèh nèp nteu tchieuyi.<br><br><br><br><br><br><br><hr>Navarole Nguepedja Djouognwou, Analisi fonetica e tonetica del dialetto bangou del Bamiléké, Tesi di Laurea Triennale, Fac. di Lingue e L.S., A.A. 2009/2010."
 },
 "geometry": {
 "type": "Point",
 "coordinates": [10.40595,5.23369]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Bamileke Fefe Camerun Bafang",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamilieke_fefe_camerun_f_bafang.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.18714,5.16014]
 }
 },
 
@@ -315,12 +291,36 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Bamileke Ngeemboon Camerun Balessing",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nggiemboon_f_balessing.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.23762,5.50512]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Bamileke Ngomba Camerun Mbouda (Bamendjinda)",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_bamileke_ngomba_cameroon_f_mbauda_bamendjinda.mp3' controls='controls'></audio><br><br>Feufack po monem ne fèh fèh, pop lao bo feh mefèh te tah'woh chiu nga ygyueh ngu te tsa yetchϽ nke pah po la bϽ feh mojeh, te jieur tah deèh ndounmba alla mbo ntò ne mama nzui mbuè. Pop shunhee ngeu, woh a nguèuhh nruiaa mvo seu, ngue tsa yetcho. Pah pop lan mba tchoú, poun feufack zenetoh pohteh nouu, nèèh ndoon teab counkte nruice. Ah couhté te feufack neen. Nkewa, nem zene nta'a ntaaa teh. Ndèèh ndoun sock unama nrui waa. Nkeeh waah feufack tchou no nem ngo tsaaa taa.<br><br>Nnaa mponghoo? Nsuo nkeepahh?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
 "coordinates": [10.29121,5.61055]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Bamileke Nguemba Camerun Bameka",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_camerun_nguemba_f_bameka.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [10.55,5.63333]
 }
 },
 
@@ -357,6 +357,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [17.25442,45.1466]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Catalano  Spagna Valenzia",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_catalan_spain_f_valencia.wav' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [-0.37629,39.46991]
 }
 },
 
@@ -951,6 +963,18 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
+"name": "Farsi  Iran Yazd",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_farsi_iran_m_yazd.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [54.35686,31.89742]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
 "name": "Farsi Dari Afghanistan Dari Ghazni",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_farsi_afghanistan_m_dari_ghazni.mp3' controls='controls'></audio>باد و خورشید<br><br>باد و خورشید با هم مشاجره می کردند ، هرکدام می خواست ثابت کند قویتراز دیگری است، تا اینکه  آنها  مسافری را دیدند که نزیک می شد، و خودش رادر بالا پوشش پوشانده بود. آنها توافق کردند که کسی که اول نفربتواند بالا پوش مسافر را بیندازد به عنوان قوی ترین محسوب شود. سپس باد شروع به وزیدن  با تمام قدرت کرد، امااو هرچه بیشترمی وزید مسافر بالاپوشش   را بیشتردور خودمی پیچید  و در پایان، باداز انداختن بالا پوش او منصرف شد. پس از آن خورشید شروع به درخشش کرد  و بعد از مدتی، مسافرکه گرمش شده بود بالا پوشش را برداشت. بنابراین، باد اذعان کرد که خورشید قوی تراز او بود.<br><br>آیا این داستان را دوست دارید؟ می خواهید باز هم آن را گوش کنید؟<hr>"
 },
@@ -1000,7 +1024,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Finnico  Finlandia Tampere",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_finnish_finland_f_tampere.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_finnish_finland_f_tampere.mp3' controls='controls'></audio>Pohjatuuli ja aurinko<br><br>Pohjatuuli ja aurinko väittelivät, kummalla olisi enemmän voimaa, kun samalla näkivät kulkijan, jolla oli yllään lämmin vaippa. Silloin sovittiin, että se on väkevämpi, joka pikemmin saa kulkijalta päällysvaatteen pois. Nytkös pohjatuuli puhaltamaan niin että viuhui; mutta mitä kovempaa se puhalsi, sitä tarkemmin kääri vain mies vaippaa ympärilleen; ja viimein tuuli heittikin koko homman sikseen. Silloin alkoi aurinko lämpimästi loistaa, eikä aikaakaan, niin kulkija riisui vaippansa. Niin oli tuulen pakko myöntää, että aurinko oli kuin olikin väkevämpi.<br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1479,18 +1503,6 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
-"name": "Inglese  Sud Africa Città del Capo",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_south_africa_f_citta_del_capo.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [18.42406,-33.92487]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
 "name": "Inglese Americano Michigan Davison",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_michigan_f_davison.mp3' controls='controls'></audio><br><br>The North Wind and the Sun were disputing which was the stronger, when a traveller came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveller take his cloak off, should be considered stronger than the other. Then the North Wind blew as hard as he could, but the more he blew, the more closely did the traveller fold his cloak around him; and at last the North Wind gave up the attempt. Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.<br><br>Did you like the story? Would you like me to repeat it again?<hr>Dati a cura di Antonio Romano"
 },
@@ -1552,7 +1564,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Inglese Australiano Australia Sydney",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_australia_f_sydney.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_australia_f_sydney.mp3' controls='controls'></audio><br><br>The North Wind and the Sun were disputing which was the stronger, when a traveller came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveller take his cloak off, should be considered stronger than the other. Then the North Wind blew as hard as he could, but the more he blew, the more closely did the traveller fold his cloak around him; and at last the North Wind gave up the attempt. Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.<br><br>Did you like the story? Do you want to hear it again?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1605,6 +1617,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [76.02919,31.0813]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Inglese Sud Africano Sud Africa Città del Capo",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_english_south_africa_f_citta_del_capo.mp3' controls='controls'></audio>The North Wind and the Sun<br><br>The North Wind and the Sun were disputing which was the stronger, when a traveller came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveller take his cloak off, should be considered the stronger of the two. Then the North Wind blew as hard as he could, but the more he blew, the more closely did the traveller fold his cloak around him; and at last the North Wind gave up the attempt. Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.<br><br>Did you like the story? Do you want to hear it again?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [18.42406,-33.92487]
 }
 },
 
@@ -1804,7 +1828,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Lituano  Lituania Klaipėda",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_lithuanian_lithuania_f_klaipėda.mp3' controls='controls'></audio>Vėjas ir Saulė<br><br>Kartą Šiaurės Vėjas ir Saulė susiginčijo, kuris iš jų dviejų stipresnis, kai pamatė ateinati į apsiaustą susisukusį keliautoją. Tuomet jie nutarė, kad stipresnis bus tas, kuris sugebės apsiaustą nuvilkti. Pirmas, iš visų jėgų pradejo pūsti Šiaurės Vėjas, bet kuo smarkiau jis pūtė, tuo stipriau keliautojas laikėsi už apsiausto. Galiausiai šiauriui beliko pasiduoti. Tuo tarpu Saulė pradejo taip skaisčiai šviesti, kad jos kaitra akimirksniu privertė žmogų nusivilkti apsiaustą. Ir taip Šiaurės vėjas turėjo pripažinti, kad saulė yra už jį stipresnė.<br><br>Ar tau patiko pasaka? Ar nori kad ją pasekčiau dar kartą?<hr>Dati a cura di Zivile Burzdziute, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_lithuanian_lithuania_f_klaipeda.mp3' controls='controls'></audio>Vėjas ir Saulė<br><br>Kartą Šiaurės Vėjas ir Saulė susiginčijo, kuris iš jų dviejų stipresnis, kai pamatė ateinati į apsiaustą susisukusį keliautoją. Tuomet jie nutarė, kad stipresnis bus tas, kuris sugebės apsiaustą nuvilkti. Pirmas, iš visų jėgų pradejo pūsti Šiaurės Vėjas, bet kuo smarkiau jis pūtė, tuo stipriau keliautojas laikėsi už apsiausto. Galiausiai šiauriui beliko pasiduoti. Tuo tarpu Saulė pradejo taip skaisčiai šviesti, kad jos kaitra akimirksniu privertė žmogų nusivilkti apsiaustą. Ir taip Šiaurės vėjas turėjo pripažinti, kad saulė yra už jį stipresnė.<br><br>Ar tau patiko pasaka? Ar nori kad ją pasekčiau dar kartą?<hr>Dati a cura di Zivile Burzdziute, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -3808,7 +3832,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Olandese  Belgio Mechelen",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_dutch_belgium_f_mechelen.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_dutchBL_belgium_f_mechelen.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -3915,18 +3939,6 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
-"name": "Portoghese  Spagna Vigo",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_spain_m_vigo.mp3' controls='controls'></audio>O vento do norte e o sol<br><br>O vento do norte e o sol discutiam qual dos dois era o mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que o primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento do norte começou a soprar com muita fúria, mas quanto mais soprava, mais o viajante se aconchegava à sua capa, até que o vento norte desistiu. O vento brilhou então com todo sou esplendor, e imediatamente o viajante tirou a capa. O vento norte teve assim de reconhecer a superioridade do sol.<br><br>Você gostaste da historia? Queremos repetí-la?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [-8.74073,42.2606]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
 "name": "Portoghese  Timor Est Dili",
 "html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_timor_est_f_dili.mp3' controls='controls'></audio><br><br>O vento norte e o sol porfiabam sobre qual dos dois era o mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento norte começou a soprar com muita fúria, mas quanto mais soprava, mais o viajante se embrulhava na sua capa, até que o vento norte desistiu. O sol brilhou então com todo o esplendor, e imediatamente o viajante tirou a capa. E assim o vento norte teve de reconhecer a superioridade do sol.<br><br>Você gostou da historinha? Queremos repetí-la?<hr>Riccardo Mura, Analisi fonotonetica del portoghese atlantico e africano, Tesi di Laurea Triennale, Fac. di Lingue e L.S., A.A. 2006/2007"
 },
@@ -3964,7 +3976,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Portoghese Brasiliano San Paolo San Paolo",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_brazil_f1_sao_paolo.mp3' controls='controls'></audio><br><br>O vento norte e o sol porfiabam sobre qual dos dois era o mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento norte começou a soprar com muita fúria, mas quanto mais soprava, mais o viajante se embrulhava na sua capa, até que o vento norte desistiu. O sol brilhou então com todo o esplendor, e imediatamente o viajante tirou a capa. E assim o vento norte teve de reconhecer a superioridade do sol.<br><br>Você gostou da historinha? Queremos repetí-la?<hr>Dati a cura di Angela Zucchi, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_brazil_f1_sao_paulo.mp3' controls='controls'></audio><br><br>O vento norte e o sol porfiabam sobre qual dos dois era o mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento norte começou a soprar com muita fúria, mas quanto mais soprava, mais o viajante se embrulhava na sua capa, até que o vento norte desistiu. O sol brilhou então com todo o esplendor, e imediatamente o viajante tirou a capa. E assim o vento norte teve de reconhecer a superioridade do sol.<br><br>Você gostou da historinha? Queremos repetí-la?<hr>Dati a cura di Angela Zucchi, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -3976,7 +3988,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Portoghese Brasiliano San Paolo San Paolo",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_brazil_f2_sao_paolo.mp3' controls='controls'></audio>O vento norte e o sol<br><br>O vento norte e o sol discutiam sobre qual dos dois era mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento norte começou a soprar com muita fúria, quanto mais soprava, mais o viajante se embrulhava na sua capa, até que o vento norte desistiu. O sol brilhou então com todo o esplendor, e imediatamente o viajante tirou a capa. E assim o vento norte teve de reconhecer a superioridade do sol.<br><br>Você gostou da historinha? Queremos repetí-la? Gostaria que  nos..?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_brazil_f2_sao_paulo.mp3' controls='controls'></audio>O vento norte e o sol<br><br>O vento norte e o sol discutiam sobre qual dos dois era mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento norte começou a soprar com muita fúria, quanto mais soprava, mais o viajante se embrulhava na sua capa, até que o vento norte desistiu. O sol brilhou então com todo o esplendor, e imediatamente o viajante tirou a capa. E assim o vento norte teve de reconhecer a superioridade do sol.<br><br>Você gostou da historinha? Queremos repetí-la? Gostaria que  nos..?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -3993,6 +4005,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [-9.13934,38.72225]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Portoghese Europeo Spagna Vigo",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_portuguese_spain_m_vigo.mp3' controls='controls'></audio>O vento do norte e o sol<br><br>O vento do norte e o sol discutiam qual dos dois era o mais forte, quando sucedeu passar um viajante envolto numa capa. Ao vê-lo, põem-se de acordo em como aquele que o primeiro conseguisse obrigar o viajante a tirar a capa seria considerado o mais forte. O vento do norte começou a soprar com muita fúria, mas quanto mais soprava, mais o viajante se aconchegava à sua capa, até que o vento norte desistiu. O vento brilhou então com todo sou esplendor, e imediatamente o viajante tirou a capa. O vento norte teve assim de reconhecer a superioridade do sol.<br><br>Você gostaste da historia? Queremos repetí-la?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [-8.74073,42.2606]
 }
 },
 
@@ -4036,7 +4060,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Rumeno  Iași Iași",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_romanian_moldavia_f2_iași.mp3' controls='controls'></audio>Crivăţul şi Soarele<br><br>Crivăţul şi Soarele se certau şi fiecare se lăuda că el e mai puternic. Văzînd că se apropia un călător îmbrăcat cu o haină groasă, hotărâră că cel care va reuşi primul să îl facă să îşi scoată haina, acela o sa fie cel mai puternic dintre ei. <br>Atunci crivăţul începu să sufle cât putea el de tare, dar cu cât sufla mai mult, cu atât călătorul strângea mai tare haina pe el. Până la urmă crivăţul renunţă să mai încerce să îi scoată haina. Apoi, începu Soarele să strălucească şi, într-o clipă, călătorul, încălzindu-se, îşi scoase haina. Crivăţul trebui să recunoască asftel că Soarele este mai puternic decât el.<br><br>Ţi-a plăcut povestea? Vrei să o mai auzi o dată?<hr>"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_romanian_moldavia_f_iasi.mp3' controls='controls'></audio>Crivăţul şi Soarele<br><br>Crivăţul şi Soarele se certau şi fiecare se lăuda că el e mai puternic. Văzînd că se apropia un călător îmbrăcat cu o haină groasă, hotărâră că cel care va reuşi primul să îl facă să îşi scoată haina, acela o sa fie cel mai puternic dintre ei. <br>Atunci crivăţul începu să sufle cât putea el de tare, dar cu cât sufla mai mult, cu atât călătorul strângea mai tare haina pe el. Până la urmă crivăţul renunţă să mai încerce să îi scoată haina. Apoi, începu Soarele să strălucească şi, într-o clipă, călătorul, încălzindu-se, îşi scoase haina. Crivăţul trebui să recunoască asftel că Soarele este mai puternic decât el.<br><br>Ţi-a plăcut povestea? Vrei să o mai auzi o dată?<hr>"
 },
 "geometry": {
 "type": "Point",
@@ -4468,7 +4492,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo  Serbia Krušchevac",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_m_krušchevac.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_m_kruschevac.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4492,7 +4516,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo  Serbia Požarevac",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_požarevac.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_pozarevac.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4516,7 +4540,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo Pomoravlje Serbia Paraćin",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_paraćin.mp3' controls='controls'></audio><br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Sara Golubović, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_paracin.mp3' controls='controls'></audio><br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Sara Golubović, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4653,18 +4677,6 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [-74.07209,4.71099]
-}
-},
-
-{
-"type": "Feature",
-"properties": {
-"name": "Spagnolo  Ecuador Quito",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_spanish_ecuador_f_quito.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [-78.46784,-0.18065]
 }
 },
 
@@ -5200,7 +5212,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Turco  Turchia Istanbul",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_turkish_turkey_m1_istanbul.mp3' controls='controls'></audio>Poyrazla güneş<br><br>Poyrazla güneş, birbirlerinden daha kuvvetli olduklarını ileri sürerek iddialaşıyorlandı. Derken, kalın bir palto giymiş bir yolcu gördüler. Bu yolcuya paltosunu çıkarttırabilenin daha kuvvetli olduğunu kabul etmeye karar verdiler. Poyraz, var gücüyle esmeye başladı. Ancak, yolcu paltosuna gitgide daha sıkı sarınıyordu. Sonuda poyraz uğraşmaktan vazgeçti. Bu sefer güneş açtı; ortalık ısınınca yolcu paltosunu hemen çıkardı. Böylece poyraz, güneşin kendisinden daha kuvvetli olduğunu kabul etmeye mecbur kaldı.<br><br>Bu hikâyeyi seudiniz mí? Tekror etmemí îster mísiniz?<hr>"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_turkish_turkey_m1_istanbul.mp3' controls='controls'></audio><br><br>Poyrazla güneş, birbirlerinden daha kuvvetli olduklarını ileri sürerek iddialaşıyorlandı. Derken, kalın bir palto giymiş bir yolcu gördüler. Bu yolcuya paltosunu çıkarttırabilenin daha kuvvetli olduğunu kabul etmeye karar verdiler. Poyraz, var gücüyle esmeye başladı. Ancak, yolcu paltosuna gitgide daha sıkı sarınıyordu. Sonuda poyraz uğraşmaktan vazgeçti. Bu sefer güneş açtı; ortalık ısınınca yolcu paltosunu hemen çıkardı. Böylece poyraz, güneşin kendisinden daha kuvvetli olduğunu kabul etmeye mecbur kaldı.<br><br>Bu hikâyeyi seudiniz mí? Tekror etmemí îster mísiniz?<hr>Romano A. (2010). \"Speech Rhythm and Timing: Structural Properties and Acoustic Correlates\". In: Stephan Schmid, Michael Schwarzenbach & Dieter Studer (a cura di), La dimensione temporale del parlato (Atti di AISV2009, Universitè di Zurigo, Kollegiengebäude, 4-6 Febbraio 2009), Torriana (RN): EDK, 45-75."
 },
 "geometry": {
 "type": "Point",
@@ -5236,11 +5248,11 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Turco  Turchia Istanbul",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/' controls='controls'></audio><br><br>Poyrazla güneş, birbirlerinden daha kuvvetli olduklarını ileri sürerek iddialaşıyorlandı. Derken, kalın bir palto giymiş bir yolcu gördüler. Bu yolcuya paltosunu çıkarttırabilenin daha kuvvetli olduğunu kabul etmeye karar verdiler. Poyraz, var gücüyle esmeye başladı. Ancak, yolcu paltosuna gitgide daha sıkı sarınıyordu. Sonuda poyraz uğraşmaktan vazgeçti. Bu sefer güneş açtı; ortalık ısınınca yolcu paltosunu hemen çıkardı. Böylece poyraz, güneşin kendisinden daha kuvvetli olduğunu kabul etmeye mecbur kaldı.<br><br>Bu hikâyeyi seudiniz mí? Tekror etmemí îster mísiniz?<hr>Romano A. (2010). \"Speech Rhythm and Timing: Structural Properties and Acoustic Correlates\". In: Stephan Schmid, Michael Schwarzenbach & Dieter Studer (a cura di), La dimensione temporale del parlato (Atti di AISV2009, Universitè di Zurigo, Kollegiengebäude, 4-6 Febbraio 2009), Torriana (RN): EDK, 45-75."
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_turkish_XXX_f_XXX_oznur_fast.wav' controls='controls'></audio><br><br><br><br><hr>"
 },
 "geometry": {
 "type": "Point",
-"coordinates": [28.96836,41.04824]
+"coordinates": [?,?]
 }
 },
 
@@ -5253,6 +5265,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [32.85974,39.93336]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Ucraino  Ucraina ?",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_ukrainian_ukraine_m.wav' controls='controls'></audio><br><br><br><br><hr>"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [?,?]
 }
 },
 
@@ -5337,6 +5361,18 @@ var sounds = {"type": "FeatureCollection","features": [
 "geometry": {
 "type": "Point",
 "coordinates": [12.301,45.99624]
+}
+},
+
+{
+"type": "Feature",
+"properties": {
+"name": "Vietnamita  Vietnam ?",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_vietnamese_vietnam_f_lan.wav' controls='controls'></audio><br><br><br><br><hr>"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [?,?]
 }
 },
 
