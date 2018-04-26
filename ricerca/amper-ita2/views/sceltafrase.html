@@ -1,0 +1,42 @@
+<div class="sceltafrase info col-md-2">
+    <div class="box box-shadow-green">
+        <div class="locutore">
+            <div>Locutore {{locNumber}}</div>
+            <div>{{piLabel}}</div>
+            <locicon loc-id="locP"></locicon>
+        </div>
+    </div>
+</div>
+
+<div class="sceltafrase frasi col-md-10">
+    <h2 class="title">LE PROPOSIZIONI</h2>
+    <p class="descrizione" ng-bind-html="locutore.descrizione"></p>
+
+    <div class="base col-md-6">
+        <h3 class="title">PROPOSIZIONE BASE</h3>
+        <p class="descrizione" ng-bind-html="locutore.descrizione_base"></p>
+        <codicifrasi type="424" value="'214'" syntax="'SVO'" blocked="12" first-cell-blocked="3" goto="true" goto-listen="gotoListen"></codicifrasi>
+    </div>
+
+    <div class="advanced col-md-6">
+        <h3 class="title">PROPOSIZIONE ESPANSA</h3>
+        <p class="descrizione" ng-bind-html="locutore.descrizione_espansa"></p>
+        <h4 style="margin-top: 40px;margin-bottom: 0px;">Espansione del soggetto</h4>
+        <codicifrasi type="4324" value="'2314'" syntax="'SSVO'" blocked="13" first-cell-blocked="4" goto="true" goto-listen="gotoListen"></codicifrasi>
+        <h4 style="margin-top: 30px;margin-bottom: 0px;">Espansione dell'oggetto</h4>
+        <codicifrasi type="4243" value="'2143'" syntax="'SVOO'" blocked="12" first-cell-blocked="3" goto="true" goto-listen="gotoListen"></codicifrasi>
+    </div>
+
+    <div class="col-md-12">
+        <br>
+        <div class="guida">
+            <h4 class="title"><i class="fa fa-info-circle" style="color:#A04779;" aria-hidden="true"></i> Guida</h4>
+            <p class="descrizione">
+                Per sapere come leggere i dati vai alla <a href="/#/guida">guida</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,34 @@
+<div class="piView">
+    <div class="frasi">
+        <div class="frase"><h2>{{amperData.%paese%.frase}}</h2></div>
+        <div class="trascrizione"><h2>{{amperData.%paese%.trascrizione}}</h2></div>
+    </div>
+
+    <div class="audio">
+        <div class="aff">
+            <div class="tipo">
+                <h3>AFFERMATIVA</h3>
+            </div>
+            <div>
+                <audio controls>
+                    <source ng-src="{{amperData.%paese%.audioTa}}">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="int">
+            <div class="tipo">
+                <h3>INTERROGATIVA</h3>
+            </div>
+            <div>
+                <audio controls>
+                    <source ng-src="{{amperData.%paese%.audioTi}}">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <div class="img f0"><img ng-src="{{amperData.%paese%.imgF0}}"/></div>
+    <div class="img dur"><img ng-src="{{amperData.%paese%.imgDur}}"/></div>
+
+</div>

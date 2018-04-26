@@ -1,0 +1,41 @@
+<div class="bs-example" data-example-id="table-within-panel">
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Comitato scientifico</div>
+        <!--<div class="panel-body">
+            <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>-->
+
+        <!-- Table -->
+        <table class="table comitato">
+            <!--<thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+            </thead>  -->
+            <tbody>
+            <tr ng-repeat="docente in comitato.docenti | filter:{old:'!true'} | orderBy:'cognome'">
+                <th scope="row">
+                    <a ng-show="docente.sito" target="_blank" ng-href="{{docente.sito}}">{{docente.nome}} {{docente.cognome}}</a>
+                    <span ng-hide="docente.sito">{{docente.nome}} {{docente.cognome}}</span>
+                </th>
+                <td>{{docente.afferenza}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Comitato scientifico 2007-2010 e 2011-2014</div>
+        <table class="table comitato">
+            <tr ng-repeat="docenteold in comitato.docenti | filter:{old: true} | orderBy:'cognome'">
+                <th scope="row">
+                    <a ng-show="docenteold.sito" target="_blank" ng-href="{{docenteold.sito}}">{{docenteold.nome}} {{docenteold.cognome}}</a>
+                    <span ng-hide="docenteold.sito">{{docenteold.nome}} {{docenteold.cognome}}</span>
+                </th>
+                <td>{{docenteold.afferenza}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

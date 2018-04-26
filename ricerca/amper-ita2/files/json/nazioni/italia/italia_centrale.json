@@ -1,0 +1,76 @@
+{
+  "descrizione": "In quest'area le località esplorate presentano una generale convergenza di modelli.<br>Le inchieste sono state condotte in tempi e modalità relativamente diversi.<br>Le regioni interessate sono: Lazio, parte della Toscana meridionale e dell'Abruzzo occidentale, l'Umbria e la parte centrale delle Marche.<br>",
+  "sottoaree": {
+    "065": {
+      "label": "laziale romano"
+    }
+  },
+  "cities":{
+    "roma": {
+      "label": "Roma",
+      "active": true,
+      "sottoarea": "065",
+      "locutori": {
+        "0657": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Nelle proposizioni di questa località si è potuto definire un questionario di base col ricorso a vocali di tipo [a] e consonanti quasi sempre ostruenti sorde.<br>La presenza di elementi lessicali o morfologici inizianti per vocale causa fenomeni di contatto (in genere tra verbo e articolo di SN2) risolti con una fusione (separata virtualmente solo ai fini del mantenimento di un numero di sillabe che la renda comparabile con le altre).<br>Nei dati si riscontra una generale uniformità nelle modalità di tematizzazione dell'SN1.<br>Nel caso di domanda con finale ossitono si ha generalmente un segmento finale di durata prolungata sul quale si distende il CTM più tipico (con parziale compressione.<br>",
+          "descrizione_base": "Nelle proposizioni base si hanno 10 sillabe e due prominenze principali con occasionale salienza della sillaba accentata del verbo.",
+          "descrizione_espansa": "Nelle proposizioni espanse si hanno 13 sillabe.<br>La maggiore lunghezza della frase induce il parlante a segmentarla con occasionale isolamento del tema e la realizzazione di due-tre prominenze principali.<br>Nelle frasi con espansione in SN1, le gerarchie accentuali appaiono più evidenti che in SN2.<br>Con SN2 espanso, è l'espansione finale che si trova interessata dal CTM.<br>"
+        },
+        "0658": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore 2"
+        }
+      }
+    },
+    "frosinone": {
+      "label": "Frosinone",
+      "active": true,
+      "sottoarea": "065",
+      "locutori": {
+        "0651": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0652": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0653": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0654": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0655": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0656": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0657": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        },
+        "0658": {
+          "varietà": "",
+          "gruppofrase": "gruppo1",
+          "descrizione": "Descrizione locutore"
+        }
+      }
+    }
+  }
+}

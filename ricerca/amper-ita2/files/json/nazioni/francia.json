@@ -1,0 +1,50 @@
+{
+  "label": "Francia",
+  "descrizione": "I Corsi",
+  "aree": {
+    "centrale": {
+      "active": true,
+      "label": "Area: centrale"
+    },
+    "i2": {
+      "active": false,
+      "label": "Area: retoromanzo"
+    },
+    "i3": {
+      "active": false,
+      "label": "Area: gallo italico"
+    },
+    "i4": {
+      "active": false,
+      "label": "Area: toscano"
+    },
+    "i5": {
+      "active": false,
+      "label": "Area: veneto"
+    },
+    "i6": {
+      "active": false,
+      "label": "Area: occitana"
+    },
+    "i7": {
+      "active": false,
+      "label": "Area: franco provenzale"
+    },
+    "i8": {
+      "active": false,
+      "label": "Area: sardo"
+    },
+    "i9": {
+      "active": false,
+      "label": "Area: corso"
+    },
+    "i10": {
+      "active": false,
+      "label": "Area: meridionale"
+    },
+    "i11": {
+      "active": false,
+      "label": "Area: meridionale estremo"
+    }
+  }
+}

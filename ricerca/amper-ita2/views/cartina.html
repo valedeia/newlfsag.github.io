@@ -1,0 +1,34 @@
+<div class="cartina col-md-4">
+    <div class="box box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '.svg'" onload="svgLoaded()"></div>
+    <div class="area-label">
+        {{areaLabel | uppercase}}
+    </div>
+</div>
+
+<div class="descrizione col-md-4">
+    <h2 class="title">{{nazioneData.label | uppercase}}</h2>
+    <p class="descrizione" ng-bind-html="nazioneData.descrizione">
+        In questo dominio è possibile distinguere le diverse aree dialettali individuate tradizionalmente da G.B. Pellegrini.<br>
+        Per completezza, sono incluse nella cartina aree di competenza di altri comitati nazionali.<br>
+    </p>
+    <div class="guida" ng-hide="piP">
+        <h4 class="title"><i class="fa fa-info-circle" style="color:#A04779;" aria-hidden="true"></i> Guida</h4>
+        <p class="descrizione">
+            Selezionare un’area per accedere ai contenuti.<br>
+            N.B. Alcune aree non sono attive perché non contengono ancora dati.
+        </p>
+    </div>
+</div>
+
+<div class="legenda col-md-4">
+    <div class="box box-shadow-pink">
+        <!-- <h3 class="title">Scopri come leggere la carta!</h3> -->
+        <img ng-src="images/amper/{{nazioneP}}_aree_legenda.svg"/>
+
+    </div>
+</div>
+
+<!-- <div class="test">
+    <a href="/#/guida">Guida</a>
+</div>  -->
+

@@ -1,0 +1,32 @@
+<script type="text/ng-template" id="corsi-template.html">
+    <div class="panel {{panelClass || 'panel-default'}}">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                    <span ng-class="{'text-muted': isDisabled}">{{heading}}</span>
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" uib-collapse="!isOpen">
+            <div class="panel-body" ng-transclude></div>
+        </div>
+    </div>
+</script>
+
+
+<div>
+    <uib-accordion close-others="true">
+        <uib-accordion-group  ng-repeat="corso in didattica.corsi">
+            <uib-accordion-heading>
+                <h3 ng-bind-html="corso.titolo"></h3>
+            </uib-accordion-heading>
+            <h3 ng-bind-html="corso.sottotitolo"></h3>
+            <h4 ng-bind-html="corso.ricevimento"></h4>
+            <h4 ng-bind-html="corso.luogoOrario"></h4>
+
+            <p ng-bind-html="corso.programma"></p>
+
+            <p ng-bind-html="corso.materiali"></p>
+        </uib-accordion-group>
+    </uib-accordion>
+</div>

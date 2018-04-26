@@ -1,0 +1,88 @@
+{
+  "gruppo1": {
+    "bwk": {
+      "frase": "'a papera Maragià magna 'a maracà.",
+      "trascrizione": "[a ˈpapera maraˈdʒːa 'maɲːa a maraˈka]"
+    },
+    "bwp": {
+      "frase": "'a papera Maragià magna 'a fragola.",
+      "trascrizione": "[a ˈpapera maraˈdʒːa 'maɲːa a ˈfragola]"
+    },
+    "bwt": {
+      "frase": "'a papera Maragià magna 'a patata.",
+      "trascrizione": "[a ˈpapera maraˈdʒːa 'maɲːa a paˈtata]"
+    },
+    "fwk": {
+      "frase": "'a papera Samara magna 'a maracà.",
+      "trascrizione": "[a ˈpapera saˈmara 'maɲːa a maraˈka]"
+    },
+    "fwp": {
+      "frase": "'a papera Samara magna 'a fragola.",
+      "trascrizione": "[a ˈpapera saˈmara 'maɲːa a ˈfragola]"
+    },
+    "fwt": {
+      "frase": "'a papera Samara magna 'a patata.",
+      "trascrizione": "[a ˈpapera saˈmara 'maɲːa a paˈtata]"
+    },
+    "pwb": {
+      "frase": "'a papera magna 'a fragola Paranà.",
+      "trascrizione": "[a ˈpapera 'maɲːa a ˈfragola paraˈna]"
+    },
+    "pwd": {
+      "frase": "'a papera magna 'a patata Paranà.",
+      "trascrizione": "[a ˈpapera 'maɲːa a paˈtata paraˈna]"
+    },
+    "pwf": {
+      "frase": "'a papera magna 'a fragola curata.",
+      "trascrizione": "[a ˈpapera 'maɲːa a ˈfragola kuˈrata]"
+    },
+    "pwg": {
+      "frase": "'a papera magna 'a maracà Paranà.",
+      "trascrizione": "[a ˈpapera 'maɲːa a maraˈka paraˈna]"
+    },
+    "pwj": {
+      "frase": "'a papera magna 'a maracà Catara.",
+      "trascrizione": "[a ˈpapera 'maɲːa a maraˈka ˈkatara]"
+    },
+    "pwk": {
+      "frase": "'a papera magna 'a maracà.",
+      "trascrizione": "[a ˈpapera 'maɲːa a maraˈka]"
+    },
+    "pwp": {
+      "frase": "'a papera magna 'a fragola.",
+      "trascrizione": "[a ˈpapera 'maɲːa a ˈfragola]"
+    },
+    "pws": {
+      "frase": "'a papera magna 'a patata curata.",
+      "trascrizione": "[a ˈpapera 'maɲːa a paˈtata kuˈrata]"
+    },
+    "pwt": {
+      "frase": "'a papera magna 'a patata.",
+      "trascrizione": "[a ˈpapera 'maɲːa a paˈtata]"
+    },
+    "pwv": {
+      "frase": "'a papera magna 'a fragola Catara.",
+      "trascrizione": "[a ˈpapera 'maɲːa a ˈfragola ˈkatara ]"
+    },
+    "pwx": {
+      "frase": "'a papera magna 'a maracà curata.",
+      "trascrizione": "[a ˈpapera 'maɲːa a maraˈka kuˈrata]"
+    },
+    "pwz": {
+      "frase": "'a papera magna 'a patata Catara.",
+      "trascrizione": "[a ˈpapera 'maɲːa a paˈtata ˈkatara]"
+    },
+    "vwk": {
+      "frase": "'a papera Catara magna 'a maracà.",
+      "trascrizione": "[a ˈpapera ˈkatara 'maɲːa a maraˈka]"
+    },
+    "vwp": {
+      "frase": "'a papera Catara magna 'a fragola.",
+      "trascrizione": "[a ˈpapera ˈkatara 'maɲːa a ˈfragola]"
+    },
+    "vwt": {
+      "frase": "'a papera Catara magna 'a patata.",
+      "trascrizione": "[a ˈpapera ˈkatara 'maɲːa a paˈtata]"
+    }
+  }
+}

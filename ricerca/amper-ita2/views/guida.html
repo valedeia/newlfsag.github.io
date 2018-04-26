@@ -1,0 +1,469 @@
+<script type="text/ng-template" id="corsi-template.html">
+    <div class="panel {{panelClass || 'panel-default'}}">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                    <span ng-class="{'text-muted': isDisabled}">{{heading}}</span>
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" uib-collapse="!isOpen">
+            <div class="panel-body" ng-transclude></div>
+        </div>
+    </div>
+</script>
+
+
+<h3 style="text-align:center; font-weight: bold;"><span style='font-size:12.0pt'>Guida alla
+lettura dei dati AMPER<o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>Le registrazioni sono denominate secondo un codice alfanumerico
+di 8 caratteri così composto:<o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>le prime 3 cifre corrispondono alla località di
+provenienza del locutore;<o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>la quarta cifra corrisponde al sesso del locutore
+(un numero pari per gli uomini, dispari per le donne) e al suo grado
+d’istruzione/consapevolezza linguistica/variazione; [F.: 1, 3, 5, 7 vs. M.: 2,
+4, 6, 8; A seconda dei gruppi di ricerca (vedere schede delle inchieste): Parlante
+conservativo (o bassa istruzione), varietà più popolare, fascia d’età più alta
+1, 2, 3, 4 vs. Parlante innovativo (o alta istruzione), varietà più
+standardizzata, fascia d’età più bassa 5, 6, 7, 8.] secondo la tabella
+seguente:<o:p></o:p></span></h3>
+
+<div align=center>
+
+    <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+           style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+        <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+            <td width=72 valign=top style='width:54.15pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 style='text-align:justify'><span style='font-size:8.0pt;font-weight:normal;
+  mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></h3>
+            </td>
+            <td width=147 colspan=2 valign=top style='width:110.25pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Parlante conservativo (o bassa
+  istruzione)<o:p></o:p></span></h3>
+            </td>
+            <td width=147 colspan=2 valign=top style='width:110.35pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Parlante innovativo (o alta
+  istruzione)<o:p></o:p></span></h3>
+            </td>
+        </tr>
+        <tr style='mso-yfti-irow:1'>
+            <td width=72 valign=top style='width:54.15pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></h3>
+            </td>
+            <td width=71 valign=top style='width:53.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Fascia d’età più alta<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:56.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Fascia d’età più bassa<o:p></o:p></span></h3>
+            </td>
+            <td width=72 valign=top style='width:53.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Fascia d’età più alta<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>Fascia d’età più bassa<o:p></o:p></span></h3>
+            </td>
+        </tr>
+        <tr style='mso-yfti-irow:2'>
+            <td width=72 valign=top style='width:54.15pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>maschio<o:p></o:p></span></h3>
+            </td>
+            <td width=71 valign=top style='width:53.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>2<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:56.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>4<o:p></o:p></span></h3>
+            </td>
+            <td width=72 valign=top style='width:53.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>6<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>8<o:p></o:p></span></h3>
+            </td>
+        </tr>
+        <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+            <td width=72 valign=top style='width:54.15pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>femmina<o:p></o:p></span></h3>
+            </td>
+            <td width=71 valign=top style='width:53.45pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>1<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:56.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>3<o:p></o:p></span></h3>
+            </td>
+            <td width=72 valign=top style='width:53.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>5<o:p></o:p></span></h3>
+            </td>
+            <td width=76 valign=top style='width:2.0cm;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <h3 align=center style='text-align:center'><span style='font-size:8.0pt;
+  font-weight:normal;mso-bidi-font-weight:bold'>7<o:p></o:p></span></h3>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>seguono quindi 4 lettere che corrispondono a un
+codice che individua la struttura sintattica e sillabico-accentuale di ogni
+frase.&nbsp;[la frase è composta da un sintagma nominale, un sintagma verbale e
+un sintagma preposizionale; il sintagma nominale è composto da un articolo
+seguito da un nome trisillabico; il sintagma verbale è generalmente composto da
+un bisillabo in concordanza sintattica con i due sintagmi -nominale e
+preposizionale-, il sintagma preposizionale è composto da una preposizione
+seguita da un nome trisillabico; il nome dei sintagmi -nominale e
+preposizionale- può essere un proparossitono, un parossitono o un ossitono,
+mentre il verbo è generalmente un parossitono. Ci sono delle frasi
+supplementari composte dall’aggiunta di un aggettivo trisillabico o al sintagma
+nominale o a quello preposizionale: anche in questo caso i trisillabi possono
+essere di tre tipi, proparossitono, parossitono o ossitono.] <o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>L’ultima lettera corrisponde alla modalità
+intonativa della frase:<o:p></o:p></span></h3>
+
+<h3 style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+        style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>a- dichiarativa
+affermativa<o:p></o:p></span></h3>
+
+<h3 style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+        style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>n- dichiarativa
+negativa<o:p></o:p></span></h3>
+
+<h3 style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+        style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>i -
+interrogativa<o:p></o:p></span></h3>
+
+<h3 style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+        style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>m -
+interrogativa negativa (e altro ancora per certe varietà);<o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>la cifra finale corrisponde al numero della
+ripetizione della frase (ogni corpus prevede almeno 3 ripetizioni);<o:p></o:p></span></h3>
+
+<h3 style='text-align:justify'><span style='font-size:12.0pt;font-weight:normal;
+mso-bidi-font-weight:bold'>Uno schema riassuntivo dei costituenti delle frasi è
+il seguente:<o:p></o:p></span></h3>
+
+<h3 style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+        style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>1a - un
+SN (articolo + nome trisillabico proparossitono);<o:p></o:p></span></h3>
+
+<p class=MsoNormal style='text-align:justify'>1b - un SN (articolo + nome
+    trisillabico parossitono);</p>
+
+<p class=MsoNormal style='text-align:justify'>1c - un SN (articolo + nome
+    trisillabico ossitono);</p>
+
+<p class=MsoNormal style='text-align:justify'>2a - un aggettivo trisillabico
+    proparossitono (opzionale);</p>
+
+<p class=MsoNormal style='text-align:justify'>2b - un aggettivo trisillabico
+    parossitono (opzionale);</p>
+
+<p class=MsoNormal style='text-align:justify'>2c - un aggettivo trisillabico
+    ossitono (opzionale);</p>
+
+<p class=MsoNormal style='text-align:justify'>3 - un verbo generalmente bisillabico
+    che possa reggere i tre nomi in funzione del soggetto e dell’oggetto;</p>
+
+<p class=MsoNormal style='text-align:justify'>4a - un SP (preposizione + nome trisillabico
+    proparossitono) (opzionale); </p>
+
+<p class=MsoNormal style='text-align:justify'>4b - un SP (preposizione + nome trisillabico
+    parossitono) (opzionale);</p>
+
+<p class=MsoNormal style='text-align:justify'>4c - un SP (preposizione + nome trisillabico
+    ossitono) (opzionale);</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p style='text-align:justify'>Il corpus dell’inchiesta consiste quindi nella
+    combinazione di questi elementi al fine di ottenere una maggiore variazione nella
+    posizione e nella gerarchia degli accenti di frase.</p>
+
+<p style='text-align:justify'>A ciascuna registrazione presente nell’archivio è
+    associato, quindi, un codice che dipende da queste informazioni e che può
+    assumere una delle seguenti forme in funzione della struttura generata come sopra.</p>
+
+<p style='text-align:justify'>Si riporta di seguito il corpus completo con i
+    codici per ogni struttura:</p>
+
+
+<div>
+    <uib-accordion close-others="true">
+        <uib-accordion-group>
+            <uib-accordion-heading>
+                <h3><span style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>CORPUS
+DI BASE<o:p></o:p></span></h3>
+            </uib-accordion-heading>
+            <p><span class=SpellE><span style='mso-bidi-font-weight:bold'>twp</span></span><span
+                    style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>dwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> ossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>swp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>zwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>dyp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>SPrep</span> ossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>syp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>SPrep</span> parossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>zyp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>SPrep</span> proparossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwd</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>agg</span> ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pws</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwz</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pyd</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>SPrep</span> ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pys</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>SPrep</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pyz</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto parossitono) (<span class=SpellE>SPrep</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>gwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> ossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>xwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>jwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>bwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> ossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>fwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>vwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwg</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwx</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwj</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twb</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto proparossitono) (<span class=SpellE>agg</span> ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twf</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto proparossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twv</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto proparossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>pwp</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (verbo)
+                (SN oggetto proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto parossitono)</p>
+        </uib-accordion-group>
+
+        <uib-accordion-group>
+            <uib-accordion-heading>
+                <h3><span style='font-size:12.0pt;font-weight:normal;mso-bidi-font-weight:bold'>FRASI
+SUPPLEMENTARI:<o:p></o:p></span></h3>
+            </uib-accordion-heading>
+            <p><span class=SpellE><span style='mso-bidi-font-weight:bold'>twj</span></span><span
+                    style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwd</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                parossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kws</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                parossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twx</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>swk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>gwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwz</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                parossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>zwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>dwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>twg</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto parossitono) (verbo)
+                (SN oggetto ossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>jwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwv</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                proparossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwf</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                proparossitono) (<span class=SpellE>agg</span> parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>fwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>bwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto ossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>xwt</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (<span
+                        class=SpellE>agg</span> parossitono) (verbo) (SN oggetto parossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>kwb</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto ossitono) (verbo) (SN oggetto
+                proparossitono) (<span class=SpellE>agg</span> proparossitono)<br>
+                <span class=SpellE><span style='mso-bidi-font-weight:bold'>vwk</span></span><span
+                        style='mso-bidi-font-weight:bold'>:</span> (SN soggetto proparossitono) (<span
+                        class=SpellE>agg</span> proparossitono) (verbo) (SN oggetto ossitono)</p>
+        </uib-accordion-group>
+    </uib-accordion>
+
+    <p style='text-align:justify'>Ogni frase è quindi composta da un codice <span
+            class=GramE>di<span style='mso-spacerun:yes'>  </span>9</span> cifre:</p>
+
+    <ul type=disc>
+        <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:justify;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'>3 cifre/lettere
+            indicanti la località di provenienza del locutore;</li>
+        <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:justify;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'>1 cifra
+            indicante il sesso del locutore;</li>
+        <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:justify;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'>3 lettere
+            indicanti la struttura sintattica della frase;</li>
+        <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:justify;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'>1
+            lettera indicante la modalità (a=affermativa, i=interrogativa, n=negativa,
+            m=negativo-interrogativa)</li>
+        <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     text-align:justify;mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'>1 cifra
+            indicante il numero della ripetizione</li>
+    </ul>
+
+    <p style='text-align:justify'>Per esempio, il codice <i>wc92pwti2</i> è composto
+        da:<span class=apple-converted-space>&nbsp;</span><i>wc9</i><span
+                class=apple-converted-space>&nbsp;</span>(località) +<span
+                class=apple-converted-space>&nbsp;</span><i>2</i><span
+                class=apple-converted-space>&nbsp;</span>(uomo, anziano, conservativo) +<span
+                class=apple-converted-space>&nbsp;</span><span class=SpellE><i>pwt</i></span><span
+                class=apple-converted-space>&nbsp;</span>(struttura sintattica corrispondente a
+        SN soggetto proparossitono, verbo, SN oggetto parossitono) +<span
+                class=apple-converted-space>&nbsp;</span><i>i</i><span
+                class=apple-converted-space>&nbsp;</span>(modalità interrogativa) +<span
+                class=apple-converted-space>&nbsp;</span><i>2</i><span
+                class=apple-converted-space>&nbsp;</span>(seconda ripetizione).</p>
+</div>

@@ -1,0 +1,41 @@
+﻿<div ng-repeat="persona in equipe.personale | filter:{collaboratore:'!true'}" class="row marketing equipe">
+
+  <div class="media-left">
+      <img class="media-object" src="images/cv/{{persona.foto}}" width="170" height="170"/>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{persona.nome}} {{persona.cognome}}</h4>
+    <p ng-show="persona.posizione.length">
+      <span >{{persona.posizione}} </span>
+    </p>
+    <p>
+      <a target="_blank" ng-href="mailto:{{persona.email}}"><i class="fa fa-arrow-circle-o-right"></i>Email</a>
+    </p>
+    <p ng-show="persona.sito">
+      <a target="_blank" ng-href="{{persona.sito}}"><i class="fa fa-arrow-circle-o-right"></i>Website</a>
+    </p>
+  </div>
+
+</div>
+
+<div><H3>Collaboratori esterni:</H3></div>
+
+<div ng-repeat="persona in equipe.personale | filter:{collaboratore: true}" class="row marketing equipe">
+
+  <div class="media-left">
+    <img class="media-object" src="images/cv/{{persona.foto}}" width="170" height="170"/>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{persona.nome}} {{persona.cognome}}</h4>
+    <p ng-show="persona.posizione.length">
+      <span >{{persona.posizione}} </span>
+    </p>
+    <p>
+      <a target="_blank" ng-href="mailto:{{persona.email}}"><i class="fa fa-arrow-circle-o-right"></i>Email</a>
+    </p>
+    <p ng-show="persona.sito">
+      <a target="_blank" ng-href="{{persona.sito}}"><i class="fa fa-arrow-circle-o-right"></i>Website</a>
+    </p>
+  </div>
+
+</div>
