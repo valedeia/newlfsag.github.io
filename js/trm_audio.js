@@ -1108,7 +1108,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Alesso (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_alesso.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_alesso.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1120,7 +1120,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Campomolle (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_campomolle.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_campomolle.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1132,7 +1132,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Cividale del Friuli (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_cividale_del_friuli.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_cividale_del_friuli.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1144,7 +1144,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Gradisca di Sedegliano (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_gradisca di sedegliano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_f_gradisca di sedegliano.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1156,7 +1156,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Grions (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_grions.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_grions.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -1168,7 +1168,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Friulano  Italia Ragogna (UD)",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_ragogna.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_itdia_ud_m_ragogna.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Mikka Petris, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
