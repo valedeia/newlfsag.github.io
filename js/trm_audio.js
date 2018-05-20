@@ -4491,8 +4491,8 @@ var sounds = {"type": "FeatureCollection","features": [
 {
 "type": "Feature",
 "properties": {
-"name": "Serbo  Serbia Krušchevac",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_m_kruschevac.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"name": "Serbo  Serbia Kruševac",
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_m_kruschevac.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Sjeverac i Sunce se prepiraše ko je snažniji od njih dvoje. Vidjevši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Sjeverac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj kaput. Na kraju siroti vjetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Sjeverac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidjela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4504,7 +4504,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo  Serbia Novi Sad",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_novi_sad.mp3' controls='controls'></audio><br><br><br><br><hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_novi_sad.mp3' controls='controls'></audio>Severac i Sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4516,7 +4516,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo  Serbia Požarevac",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_pozarevac.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_pozarevac.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4540,7 +4540,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo Pomoravlje Serbia Paraćin",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_paracin.mp3' controls='controls'></audio><br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Sara Golubović, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_paracin.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se dopala priča? Hoćeš opet da ti je ispričam?<hr>Dati a cura di Sara Golubović, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4552,7 +4552,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo Vojvodina Serbia Kikinda",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_kikinda.mp3' controls='controls'></audio><br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Irina Djuran, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_serbia_f_kikinda.mp3' controls='controls'></audio><br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Irina Djuran, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4564,7 +4564,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo (dialetto)  Montenegro Cetnje",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_dialect_montenegro_m_cetinje.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_dialect_montenegro_m_cetinje.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Sjeverac i Sunce se prepiraše ko je snažniji od njih dvoje. Vidjevši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Sjeverac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vjetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Sjeverac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidjela ova priča? Da li želiš da je ponovo čuješ?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
@@ -4576,7 +4576,7 @@ var sounds = {"type": "FeatureCollection","features": [
 "type": "Feature",
 "properties": {
 "name": "Serbo (dialetto)  Montenegro Cetnje",
-"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_dialect_montenegro_f_cetinje.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Severac i Sunce se prepiraše ko je snažniji od njih dvoje. Videvši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Severac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće drzao svoj ogrtač. Na kraju siroti vetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Severac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
+"html": "<audio width='300' height='32' src='http://www.lfsag.unito.it/ark/tramontane/trm_serbian_dialect_montenegro_f_cetinje.mp3' controls='controls'></audio>Severac i sunce<br><br>Jednog dana Sjeverac i Sunce se prepiraše ko je snažniji od njih dvoje. Vidjevši jednog prolaznika ogrnutog teškim ogrtačem, dogovoriše se da je jači onaj ko prvi skine ogrtač sa prolaznika. Sjeverac započe da duva svom svojom snagom i sve sto je snažnije duvao prolaznik je sve čvršće držao svoj ogrtač. Na kraju siroti vjetar je odustao. Nakon toga Sunce zasija svom svojom toplotom i prolaznik je odmah skinuo svoj ogrtač. Tako je Sjeverac bio prinuđen da prizna da je Sunce snažnije od njega.<br><br>Da li ti se svidjela ova priča? Da li želiš da je čuješ ponovo?<hr>Dati a cura di Valentina De Iacovo, Antonio Romano"
 },
 "geometry": {
 "type": "Point",
